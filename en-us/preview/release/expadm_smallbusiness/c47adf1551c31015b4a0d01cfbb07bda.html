@@ -1,0 +1,1477 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us" dir="ltr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Transaction File Fields</title>
+      <link rel="icon" href="themes/sap-default/img/favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="themes/sap-default/img/favicon.ico">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"c47bb7c151c310159f48c93bc10ca31b.html","previousTopicHref":"c47c0d4551c310158d94f041e7787fa6.html"}</script>
+      <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/sap-default/css/style.css">
+      <script type="text/javascript">
+      
+        d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
+        var ADAPT_CONFIG = {
+          // Where is your CSS?
+          path: d4p.relativePath + d4p.cssGridPath,
+
+          // false = Only run once, when page first loads.
+          // true = Change on window resize and page tilt.
+          dynamic: true,
+
+          // Optional callback... myCallback(i, width)
+          callback: doc_resize,
+
+          // First range entry is the minimum.
+          // Last range entry is the maximum.
+          // Separate ranges by "to" keyword.
+          range: [
+             // small (size-0)
+            '0px    to 760px  =',
+             // medium (size-1, size-2)
+            '760px  to 980px  = ',
+            '980px  to 1270px = ',
+             // large (size-3, size-5)
+            '1270px to 1600px = ',
+            '1600px to 1940px = ',
+             // extra large (size-6)
+            '1940px to 2540px = ',
+            '2540px           = '
+          ]
+        };
+
+        function doc_resize(i, width)
+        {
+          d4p.setBodyClassfunction(i, width);
+        }
+
+
+        
+      </script>
+      <script type="text/javascript" src="themes/sap-default/js/script.js"></script>
+      
+      		<!--[if lt IE 9]>
+      			<script>
+      			  var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+      			    "figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+      			    "progress,section,time,video").split(',');
+      			  for (var i = 0; i < e.length; i++) {
+      			    document.createElement(e[i]);
+      			  }
+      			</script>
+      		<![endif]-->
+      
+      <script>
+      function addLoadEvent(func) {
+      var oldonload = window.onload;
+      if (typeof window.onload != 'function') {
+      window.onload = func;
+      } else {
+      window.onload = function() {
+      if (oldonload) {
+      oldonload();
+      }
+      func();
+      }
+      }
+      }
+      
+      addLoadEvent(function() { 
+      if ($('#local-navigation').length) {
+      $('#local-navigation').navigation();
+      }
+      
+      
+      });
+      
+      </script>
+      <script id="search-processing" type="text/javascript" src="js/search-processing.js"> </script>
+      </head>
+   <body class="en-us sap-default centered navigation-default">
+      <div id="d4h5-main-container" class="container_12" role="application">
+         <ul id="page-links" class="hidden">
+            <li><a id="skip-to-content" href="#d4h5-main-content"></a></li>
+            <li><a id="skip-to-localnav" href="#local-navigation"></a></li>
+            <li><a id="skip-to-footer" href="#footer"></a></li>
+         </ul>
+         <header role="banner" aria-labelledby="publication-title">
+            
+            <img src="themes/sap-default/img/concur.png" class="logo hide-for-small"><h1 id="publication-title" class="hide-for-small">Concur Expense Small Business Administration</h1>
+            <section class="search-box">
+               <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><label for="txtSearchTerms" class="screen-reader">Search</label><input type="search" id="txtSearchTerms" name="q"></form><span class="search-button sap-icon" onclick="redirect(frmSearch);return false"></span></section>
+            
+         </header>
+         
+         <div id="d4h5-section-container" class="grid_12">
+            <nav class="mobile-nav">
+               <ul>
+                  <li class="toggle-topbar menu-icon no-child "><span class="sap-icon"><a href="#local-navigation"></a></span></li>
+               </ul>
+               <section class="nav-pub-title">Concur Expense Small Business Administration</section>
+            </nav>
+            <nav id="local-navigation" role="navigation" aria-label="Main navigation" class="grid_4 alpha omega">
+               <div id="nav-content">
+                  <ul>
+                     <li class="toc_link no-child "><a href="index.html"></a></li>
+                     <li class=" no-child "><a href="bb4e99add95a497ab6fe4451cca1b39f.html">Using Online Help</a></li>
+                     <li class=" no-child "><a href="c4419e6551c31015894592a35ea9c949.html">Legal Notice</a></li>
+                     <li class=" no-child "><a href="b550513be69a4a10be506de52eac0c5d.html">Resources for Administrators - Small Business Edition</a></li>
+                     <li class="topichead  collapsible "><span>Setup</span><ul>
+                           <li class=" collapsible  collapsed"><a href="c48a468b51c310158a3f8ed2ba527b2e.html">Accounting</a><ul>
+                                 <li class=" no-child "><a href="c48a1b0951c3101591c3a8c08b01915c.html">Accounting (IS clients)</a></li>
+                              </ul>
+                           </li>
+                           <li class=" no-child "><a href="c48a773b51c3101580bff61a9a53824e.html">Intuit Toolbar</a></li>
+                           <li class=" no-child "><a href="c481361151c3101599e1f342b1486dfe.html">American Express Card Setup (AMEX Clients)</a></li>
+                           <li class="topichead  collapsible "><span>Cost Tracking</span><ul>
+                                 <li class=" no-child "><a href="c481608551c310159196e2a05ba7b356.html">Cost Tracking - Data to Track</a></li>
+                                 <li class=" no-child "><a href="c481b62751c31015a6ec8cf62443c529.html">Cost Tracking - Data Entry Details</a></li>
+                                 <li class=" no-child "><a href="c4818ad851c3101599fbd7038d41970f.html">Cost Tracking - Data Entry Details (QuickBooks clients)</a></li>
+                                 <li class=" no-child "><a href="c482092551c31015a0e99352c1275625.html">Cost Tracking - Enter List Items</a></li>
+                                 <li class=" no-child "><a href="c481dfa951c31015afacd3f8bd408a05.html">Cost Tracking - Enter List Items (IS clients)</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Employee Reimbursements</span><ul>
+                                 <li class=" no-child "><a href="c48839dd51c310159c29974e4049de21.html">Employee Reimbursements</a></li>
+                                 <li class=" collapsible  collapsed"><a href="c48944cd51c31015807face7c0db1e93.html">Expense Pay by Concur</a><ul>
+                                       <li class=" no-child "><a href="c489c59051c31015b734a22abb23baa6.html">Expense Pay Requirements</a></li>
+                                       <li class=" no-child "><a href="c4899b6651c31015b93ece52cc5c934c.html">Expense Pay payment process</a></li>
+                                       <li class=" no-child "><a href="c4896f3251c31015883ea272080d4423.html">Processing payments with Expense Pay</a></li>
+                                       <li class=" collapsible  collapsed"><a href="c4891a3251c31015add5ddc39d1b9894.html">Expense Pay Funding Account Setup</a><ul>
+                                             <li class=" no-child "><a href="c489f0d551c310158d66a3e37b8068a3.html">US Funding Accounts</a></li>
+                                          </ul>
+                                       </li>
+                                       <li class=" no-child "><a href="c488ee2b51c310159a3a8dfef3e535be.html">Expense Pay Employee Bank Info</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class=" no-child "><a href="c480dc5e51c31015bd5aeeabe0fc4f33.html">Car Configuration</a></li>
+                           <li class=" no-child "><a href="c4810bbb51c31015a575fa00a99cab11.html">Company Card Program Information</a></li>
+                           <li class=" collapsible  collapsed"><a href="c488931f51c3101582a3d4899ae07d44.html">Manage Expense Types</a><ul>
+                                 <li class=" no-child "><a href="c488661e51c31015a934a92f7950d202.html">Manage Expense Types (Intuit Sales clients)</a></li>
+                              </ul>
+                           </li>
+                           <li class=" no-child "><a href="c488bf5c51c31015bdd3b9aa2c1e67f4.html">Trip Mappings</a></li>
+                           <li class=" no-child "><a href="c48b247451c31015876bd5ecd69abb1c.html">Payments</a></li>
+                           <li class="topichead  collapsible "><span>Settings</span><ul>
+                                 <li class=" no-child "><a href="c48bcb8451c31015b660d9897a2cf1af.html">Settings</a></li>
+                                 <li class=" no-child "><a href="c48b4e6f51c31015b0c78cc41bbb720b.html">Settings (Google clients)</a></li>
+                                 <li class=" no-child "><a href="c48b77fd51c310158e0bd76d620744b1.html">Settings (AMEX clients)</a></li>
+                                 <li class=" no-child "><a href="c48ba21e51c31015baa38ff39359b789.html">Settings (IS clients)</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Users</span><ul>
+                                 <li class=" no-child "><a href="c48c779051c310158bf2cbd1228e2260.html">Users</a></li>
+                                 <li class=" no-child "><a href="c48bf68a51c31015928ccb276e2b4d20.html">Users (Quickbooks clients)</a></li>
+                                 <li class=" no-child "><a href="c48c225b51c31015940eb26efc10001d.html">Users (Google clients)</a></li>
+                                 <li class=" no-child "><a href="c48c4bd951c3101580e7d9e918052743.html">Users (IS clients)</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Invite Users</span><ul>
+                                 <li class=" no-child "><a href="c48aa25151c31015ab568c88d250cd10.html">Invite Users</a></li>
+                                 <li class=" no-child "><a href="c48acbf551c31015b779dcc5399a83d7.html">Invite Users (Google clients)</a></li>
+                                 <li class=" no-child "><a href="c48af7d851c310158cc7a3a26759cecb.html">Invite Users (AMEX clients)</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="topichead  collapsible  active"><span>Administration</span><ul>
+                           <li class=" no-child "><a href="c47ab33251c31015bb92e1f2272238d2.html">Billing</a></li>
+                           <li class="topichead  collapsible  active"><span>Payment Manager</span><ul>
+                                 <li class=" no-child "><a href="c47b60a151c3101584c38c933366e411.html">Access Payment Manager</a></li>
+                                 <li class=" no-child "><a href="c47b8c1f51c3101581a3f8cec688810a.html">Access Payment Manager (QuickBooks clients)</a></li>
+                                 <li class=" no-child "><a href="c47be28c51c310159fff838740f55046.html">Manage expense batches</a></li>
+                                 <li class=" no-child "><a href="c47c0d4551c310158d94f041e7787fa6.html">Manage expense batches (QuickBooks clients)</a></li>
+                                 <li class=" no-child  active"><a class="selected" href="c47adf1551c31015b4a0d01cfbb07bda.html">Transaction File Fields</a></li>
+                                 <li class="topichead  collapsible "><span>Expense Pay Processes</span><ul>
+                                       <li class=" no-child "><a href="c47bb7c151c310159f48c93bc10ca31b.html">Expense Pay: View employee banking information</a></li>
+                                       <li class=" no-child "><a href="c47c38c151c31015bf97ef59ec842d02.html">Expense Pay: View funding account information</a></li>
+                                       <li class=" no-child "><a href="c47c643151c310159b76f18344f072ba.html">Expense Pay: View report payees</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class=" collapsible  collapsed"><a href="c47cb93c51c31015a3c5c1d46d128a97.html">Reporting</a><ul>
+                                 <li class=" no-child "><a href="c47c8e9351c310158b91ae2f3184956b.html">Reporting (AMEX clients)</a></li>
+                              </ul>
+                           </li>
+                           <li class=" no-child "><a href="c47b0a2851c3101584d2d64ad4a02d88.html">Export</a></li>
+                           <li class=" no-child "><a href="c47b351051c31015a59ecc4069feb5d2.html">Export (QuickBooks clients)</a></li>
+                        </ul>
+                     </li>
+                     <li class="topichead  collapsible "><span>Processor</span><ul>
+                           <li class=" no-child "><a href="c47de3ae51c3101582f5b2395ae24b0c.html">Processor Overview</a></li>
+                           <li class="topichead  collapsible "><span>Search</span><ul>
+                                 <li class=" no-child "><a href="c47f36ba51c31015afaf80dd6fc3f8b2.html">Search queries</a></li>
+                                 <li class=" no-child "><a href="c47f60e551c310159a17b33c97758112.html">Search for expense reports</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Processor View</span><ul>
+                                 <li class=" no-child "><a href="c47d0c0f51c31015868da5016eb568a0.html">Manage columns on the Process Reports and Expense Reports pages</a></li>
+                                 <li class=" no-child "><a href="c47d380051c31015ad3df4f4ba09ff6e.html">Manage the Process Reports page preferences</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>View Report Information</span><ul>
+                                 <li class=" no-child "><a href="c480316751c31015a82ed83ec43ee9c8.html">View report details</a></li>
+                                 <li class=" no-child "><a href="c4805ac951c31015add9c169882c9cac.html">View itemizations</a></li>
+                                 <li class=" no-child "><a href="c480842951c31015a608f4e3d4577774.html">View and upload receipts</a></li>
+                                 <li class=" no-child "><a href="c480082351c31015a2a08df55b879594.html">Viewing personal and company car information</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Modify Report and Entry Information</span><ul>
+                                 <li class=" no-child "><a href="c47dba2b51c310159cc1e30dc77ed1c6.html">Modify the report header</a></li>
+                                 <li class=" no-child "><a href="c47d649351c31015988498ab5ef025f8.html">Modify report allocations</a></li>
+                                 <li class=" no-child "><a href="c47d909451c31015935ce02681e90329.html">Modify the report entry expense type</a></li>
+                                 <li class=" no-child "><a href="c47f8a9051c31015a3a6a059820acbb5.html">Set the receipt status of expense entries</a></li>
+                                 <li class=" no-child "><a href="c47fb41951c310159d93cc681cd14fe6.html">Set the review status of expense entries</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Modify Report Status</span><ul>
+                                 <li class=" no-child "><a href="c47e0e2751c31015b89a85a793b946ce.html">Partial approve of expense entries</a></li>
+                                 <li class=" no-child "><a href="c47e664051c3101588c3eda9dd32039d.html">Reject expense entries</a></li>
+                                 <li class=" no-child "><a href="c47e909e51c310159f0490209a6f38ec.html">Approve reports</a></li>
+                                 <li class=" no-child "><a href="c47ee3c651c31015be2cb379566bbb4f.html">Manually pay a report</a></li>
+                                 <li class=" no-child "><a href="c47fde5251c310159930fb9727eed984.html">Send a report back to an employee</a></li>
+                              </ul>
+                           </li>
+                           <li class=" no-child "><a href="c47e3c3851c310159099bfa48bfba5d5.html">Receipt Store</a></li>
+                           <li class=" no-child "><a href="c47eba1451c31015a276d8e9ff8f620c.html">Email report with comments</a></li>
+                           <li class=" no-child "><a href="c47f0d4a51c310158ed497df719ba0fe.html">Print report</a></li>
+                        </ul>
+                     </li>
+                     <li class=" no-child "><a href="469af105d0044bf6af84b2fff22f2b32.html">What's New - Small Business Edition</a></li>
+                     <li class="topichead  collapsible "><span>Profile</span><ul>
+                           <li class=" no-child "><a href="c42f801351c31015bc40c066df9e79b0.html">Profile - Overview</a></li>
+                           <li class=" no-child "><a href="c430520651c31015b730f85f9bcfed92.html">Add a personal credit or debit card</a></li>
+                           <li class=" no-child "><a href="c431037851c31015a0a886318f54c9e0.html">Personal Information</a></li>
+                           <li class=" no-child "><a href="c42aa55851c310159ce5b022daabd21a.html">Connected Apps</a></li>
+                           <li class=" no-child "><a href="c42afd6c51c31015b89cd0cf75d0355d.html">Email Addresses</a></li>
+                           <li class=" no-child "><a href="c42ca66e51c31015904df674e4c6cbbb.html">Expense Pay</a></li>
+                           <li class=" no-child "><a href="c42f559651c3101598ee887b7b02ed70.html">Mobile PIN</a></li>
+                           <li class=" no-child "><a href="b1b89f1ec46d4298ba95f521768168d6.html">User Interface Icons</a></li>
+                           <li class="topichead  collapsible "><span>Favorite attendees</span><ul>
+                                 <li class=" no-child "><a href="c42dfd0151c310159a7ca8b879477176.html">Favorite attendees - overview</a></li>
+                                 <li class=" no-child "><a href="c42e271551c310158b90ffcaafdc6b7c.html">Add a Favorite Attendee</a></li>
+                                 <li class=" no-child "><a href="c42e517651c31015ade8d4d33585f78a.html">Add a Favorite Attendee Using Search</a></li>
+                                 <li class=" no-child "><a href="c42e7c0651c3101585d4fc23078b4451.html">Delete a Favorite Attendee</a></li>
+                                 <li class=" no-child "><a href="c42ea73051c31015a226bee1623f54ec.html">Edit or View Favorite Attendee Information</a></li>
+                                 <li class=" collapsible  collapsed"><a href="dda67b67d55d41bf8d8e0262c3a505d5.html">Attendee groups - overview</a><ul>
+                                       <li class=" no-child "><a href="24c226c3327d4fed9af87b502a4a7860.html">Delete attendee groups</a></li>
+                                       <li class=" no-child "><a href="c42d4f0551c310159fc4f15232f87d92.html">Favorite attendee group - edit attendee information</a></li>
+                                       <li class=" no-child "><a href="c42da61451c310158d4dbf011a8d213f.html">Attendee groups - send a copy to another user</a></li>
+                                       <li class=" no-child "><a href="c42cfadf51c31015af29815e043b36f4.html">Attendee groups - create a group</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Expense Settings</span><ul>
+                                 <li class=" no-child "><a href="c42b519e51c31015aab7d277e667f860.html">Expense Approvers</a></li>
+                                 <li class=" no-child "><a href="c42b7c7e51c31015b3b1d90fd98ea953.html">Access Expense Delegate</a></li>
+                                 <li class=" no-child "><a href="c42ba7f351c310159a18b9e6d3599f3a.html">Add Expense Delegate</a></li>
+                                 <li class=" no-child "><a href="c42c7c8d51c31015917ccd4a943c8814.html">Edit Expense Delegates</a></li>
+                                 <li class=" no-child "><a href="c42c27a251c310158552ffbddb8d077b.html">Delete Expense Delegate</a></li>
+                                 <li class=" no-child "><a href="c42cd06d51c31015928d9ed51a0c4d15.html">Expense Preferences</a></li>
+                                 <li class=" no-child "><a href="c42c525051c31015b809d2c9cdfef810.html">Delete Expense Delegate Assignment</a></li>
+                                 <li class=" no-child "><a href="c42bfd9c51c31015b6feaa8f4b896adc.html">Delegate Preview for the Approver</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+            <nav id="breadcrumb-container" class="breadcrumb-container"><span id="breadcrumbs"><a class="sap-icon bcNavLink" href="index.html"></a>&gt;<span class="bcNavText">Administration</span>&gt;<span class="bcNavText">Payment Manager</span>&gt;<span class="bcNavText">Transaction File Fields</span></span><span class="next-previous"><a href="c47c0d4551c310158d94f041e7787fa6.html" class="previous sap-icon" rel="internal" title="Manage expense batches (QuickBooks clients)"></a><a href="c47bb7c151c310159f48c93bc10ca31b.html" class="next sap-icon" rel="internal" title="Expense Pay: View employee banking information"></a></span></nav>
+            <div id="d4h5-main-content" class="grid_8 alpha omega">
+               <section>
+                  <div id="content-toolbar" class="toolbar hide-for-small"></div>
+                  <div class="page topic  - topic-topic " id="loioc47adf1551c31015b4a0d01cfbb07bda">
+                     
+                     <h1 class="title topictitle1">Transaction File Fields</h1>
+                     
+                     <div class="body">
+                        <p class="p">The transaction file may contain the following fields. Depending on your configuration, you may not see all fields. </p>
+                        
+                        
+                        <div class="table-wrapper tablenoborder">
+                           <table summary="" class="table" frame="border" border="1" rules="all">
+                              
+                              <colgroup>
+                                 <col width="33.333333333333336%">
+                                 <col width="33.333333333333336%">
+                                 <col width="33.333333333333336%">
+                              </colgroup>
+                              
+                              
+                              <thead class="thead" align="left">
+                                 
+                                 <tr class="row">
+                                    
+                                    <th class="entry" valign="top" width="33.33333333333333%" id="d17508e19">
+                                       
+                                       <p class="p">Field</p>
+                                       
+                                       
+                                    </th>
+                                    
+                                    
+                                    <th class="entry" valign="top" width="33.33333333333333%" id="d17508e25">
+                                       
+                                       <p class="p">Max Length</p>
+                                       
+                                       
+                                    </th>
+                                    
+                                    
+                                    <th class="entry" valign="top" width="33.33333333333333%" id="d17508e31">
+                                       
+                                       <p class="p">Description/Format</p>
+                                       
+                                       
+                                    </th>
+                                    
+                                    
+                                 </tr>
+                                 
+                                 
+                              </thead>
+                              
+                              <tbody class="tbody">
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Batch Date</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">10</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The date the batch was closed. </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Format:</span> MM/DD/YYYY
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Employee ID</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">48</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The ID of the employee who submitted the expense transaction. Employee ID often also serves as a vendor ID for AP systems
+                                          or Payroll ID for Payroll integrations.
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Employee Last Name</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">32</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The last name of the employee who submitted the expense transaction.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Employee First Name</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">32</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The first name of the employee who submitted the expense transaction.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report ID</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">32</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The report ID associated with the expense transaction. </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Format:</span> Alphanumeric string. Guaranteed to be
+                                          unique. Often used as a voucher number when integrating to AP
+                                          systems.
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Currency Alpha Code</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">3</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Reimbursement currency in ISO alpha format for the report. </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Example:</span> USD, GBP
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Submit Date</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">10</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The date/time the report was submitted. </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Format:</span> MM/DD/YYYY
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Processing Payment Date</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">10</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The date that all approvals were completed and the report was moved to the Processing Payment
+                                          status. 
+                                       </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Format:</span> MM/DD/YYYY
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Name</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">40</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The name of the report as entered by the employee.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Expense Type Name</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">64</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The expense type of the expense transaction.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Transaction Date</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">10</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The date of the expense transaction based on when it was incurred and/or the credit card receipt
+                                          date. 
+                                       </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Format:</span> MM/DD/YYYY
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry is Personal Flag</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">1</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Whether the Is Personal check box was selected for the expense transaction. </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Format:</span> Y/N
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Description</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">64</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Expense description as entered by the employee.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Vendor Name</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">64</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The vendor name for the expense transaction.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Vendor Description</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">64</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The vendor description for the expense transaction.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Payment Code Code</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">4</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Payment Type code indicating how employee paid for purchase.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Payment Code Name</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">80</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The Payment Code name for the expense transaction.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Payment Reimbursement Type</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">1</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Indicates whether journal entry reimbursed by Expense Pay. Either: </p>
+                                       
+                                       
+                                       <p class="p">1 = Expense Pay </p>
+                                       
+                                       
+                                       <p class="p">blank = <span class="ph emphasis emphasis-bold-italics emphasis">not </span>Expense Pay 
+                                       </p>
+                                       
+                                       
+                                       <p class="p">This is for transactions reimbursed using Expense Pay service.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Billed Credit Card Account Number</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">4</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The last four digits of the credit card account number used to make the purchase.&nbsp; </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Billed Credit Card Account Description</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">255</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Description of the card account with the liability for the charge.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Journal Payer Payment Type Name</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">80</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Payer payment type name. One of these: Company Employee Tax Authority Label for VAT records. </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Example:</span> UKVAT
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Journal Payee Payment Type Name</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">64</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Payee payment type.
+                                          One of these:
+                                          Company 
+                                          Employee 
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Journal Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The amount of the expense transaction. Value, as credit or debit, of the amount to be exchanged
+                                          between the payer and payee for this expense account code.
+                                          (<span class="keyword uinolabel uinolabel-italicsblack">not </span>an absolute value)
+                                       </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Examples:</span> Value of zero, credit, or debit, as
+                                          the following: • 0 (Zero) "0" • <span class="ph uicontrol uicontrol-boldblack">+ </span>(Plus /
+                                          Debit) "+50.00" • <span class="ph uicontrol uicontrol-boldblack">- </span>(Minus / Credit)
+                                          "-50.00"
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Is Billable</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">1</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Whether the Is Billable check box was selected for the expense transaction. </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Format:</span> Y/N
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Journal Account Code</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">48</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Contains the account code associated with the expense type.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Journal Debit or Credit</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">2</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Whether the transaction is a debit or credit. Either: DR = Debit CR=Credit
+                                          <span class="ph emphasis emphasis-bold-italics emphasis">Format:</span> DR/CR
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Payment Demand Company Cash Account Code</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">48</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">This field is reserved for future use with Expense Pay.
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Payment Demand Company Liability Account Code</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">48</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">This field is reserved for future use with Expense Pay.
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Estimated Payment Date</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">10</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The date the expense is estimated to be paid.
+                                          
+                                       </p>
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">NOTE:</span> This field is only populated when using Expense Pay.
+                                       </p>
+                                        
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Format:</span> MM/DD/YYYY
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Tax Authority Name</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">50</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Name of the tax authority that applies to this expense.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Tax Authority Label</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">5</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">5 character code that appears on the expense entry pages and represents the alphanumeric code for
+                                          the tax authority type. 
+                                       </p>
+                                       
+                                       
+                                       <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Example:</span> UKVAT
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Transaction Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Calculated tax amount for this expense in the spend currency.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Posted Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Calculated tax amount for this expense entry in the reimbursement currency.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Source</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">4</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Determines how this data was derived: </p>
+                                       
+                                       
+                                       <p class="p">CARD= Provided from company card </p>
+                                       
+                                       
+                                       <p class="p">USER = Entered by employee </p>
+                                       
+                                       
+                                       <p class="p">SYST = Calculated by system </p>
+                                       
+                                       
+                                       <p class="p">PROC = Entered by processor</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Reclaim Transaction Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Calculated amount of tax eligible for reclaim in the spend currency.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Reclaim Posted Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Calculated amount of tax eligible for reclaim in the reimbursement currency.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Code</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">20</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Tax code assigned to this tax authority for the expense type entered on the expense entry.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Reclaim Domestic Flag</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">1</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Y = this tax configuration is defined as a reclaimable local tax jurisdiction.
+                                          <span class="ph emphasis emphasis-bold-italics emphasis">Format:</span> Y/N
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Adjusted Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Amount of tax based on approved amount, not total in the employees reimbursement currency.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Reclaim Adjusted Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Reclaim amount calculated on adjusted tax amount.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Allocation Reclaim Code</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">20</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Reclaim code from the tax definition.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Reclaim Trans Adjusted Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Amount of tax based on approved amount, not total in spend transaction currency.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Tax Allocation Reclaim Code</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">20</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Allocation Reclaim Code.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Total Tax Posted Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The sum of the tax calculated based on the expense amount.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Net Tax Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Calculated as Posted Amount <span class="keyword uinolabel uinolabel-italicsblack">minus </span>Total Tax Posted Amount.
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Report Entry Total Reclaim Adjusted Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The sum of the reclaimable tax amount calculated from the Total Tax Adjusted Amount.</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Net Adjusted Reclaim Amount</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">23</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">Calculated as Approved Amount <span class="keyword uinolabel uinolabel-italicsblack">minus</span> Total Reclaim Adjusted Amounts.
+                                       </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                                 <tr class="row">
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e19 ">
+                                       <p class="p">Custom Cost Tracking Fields</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e25 ">
+                                       <p class="p">Varies</p>
+                                       
+                                       
+                                    </td>
+                                    
+                                    <td class="entry" valign="top" width="33.33333333333333%" headers="d17508e31 ">
+                                       <p class="p">The custom cost tracking fields you configured in Setup will appear at the end of the file. </p>
+                                       
+                                       
+                                    </td>
+                                    
+                                 </tr>
+                                 
+                              </tbody>
+                              
+                           </table>
+                           
+                        </div>
+                        
+                     </div>
+                     
+                  </div>
+                  
+               </section>
+               <div class="clear"></div>
+               
+            </div>
+            <div class="clearfix"></div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <div id="footer-container" class="grid_12">
+         <footer>
+            	
+            <div id="custom-footerSpacer"></div>
+            	
+            
+         </footer>
+         
+         
+      </div>
+   </body>
+</html>
