@@ -1,0 +1,1047 @@
+<mapdriven:collected-data xmlns:enum="http://dita4publishers.org/enumerables"
+                          xmlns:applicability="http://dita4publishers.org/applicability"
+                          xmlns:index-terms="http://dita4publishers.org/index-terms"
+                          xmlns:mapdriven="http://dita4publishers.org/mapdriven">
+   <enum:enumerables>
+      <topicref xmlns="http://dita4publishers.org/enumerables"
+                class="+ map/topicref mapgroup-d/mapref "
+                sourceId="id-25248--topicref-27-336-34"
+                xml:lang="en-us"
+                xtrc="topicref:1"
+                docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                type="reference"
+                topicID="loiobb4e99add95a497ab6fe4451cca1b39f">
+         <title>Using Online Help</title>
+      </topicref>
+      <topicref xmlns="http://dita4publishers.org/enumerables"
+                class="+ map/topicref mapgroup-d/mapref "
+                sourceId="id-25248--topicref-32-332-24"
+                xml:lang="en-us"
+                xtrc="topicref:2"
+                docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                type="topic"
+                topicID="loioc4419e6551c31015894592a35ea9c949">
+         <title>Legal Notice</title>
+      </topicref>
+      <topicref xmlns="http://dita4publishers.org/enumerables"
+                class="+ map/topicref mapgroup-d/mapref "
+                sourceId="id-25248--topicref-36-327-84"
+                xml:lang="en-us"
+                xtrc="topicref:4"
+                docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                type="concept"
+                topicID="loio884516da770a4673a512e61912d6a0c5">
+         <title>Resources for Users - Professional Edition</title>
+      </topicref>
+      <topichead xmlns="http://dita4publishers.org/enumerables"
+                 class="+ map/topicref mapgroup-d/mapref "
+                 sourceId="id-20725--topichead-41-238-1028"
+                 xml:lang="en-us"
+                 xtrc="topichead:1"
+                 docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+         <title>Request Submitter</title>
+         <topicref class="- map/topicref " sourceId="id-25248--topicref-41-322-32"
+                   xml:lang="en-us"
+                   xtrc="topicref:5"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc433b0a751c31015825aadfc43ea7797">
+            <title>Request overview</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-25248--topicref-45-318-40"
+                   xml:lang="en-us"
+                   xtrc="topicref:6"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc43859f951c31015bb2c8bd357ac79d3">
+            <title>View travel requests</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-25248--topicref-49-286-458"
+                   xml:lang="en-us"
+                   xtrc="topicref:7"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc43582bb51c31015b354e9abd4cd6782">
+            <title>Attendees - Overview</title>
+            <topicref class="- map/topicref " sourceId="id-25248--topicref-52-310-44"
+                      xml:lang="en-us"
+                      xtrc="topicref:8"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc435da3351c310159dd0a92e53a587d4">
+               <title>Search for an attendee</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-25248--topicref-56-306-42"
+                      xml:lang="en-us"
+                      xtrc="topicref:9"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc434d92051c3101592a4ad8f802b419a">
+               <title>Create a new attendee</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-13521--topicref-60-302-76"
+                      xml:lang="en-us"
+                      xtrc="topicref:10"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc437dc2351c310159f00f00d6b54b10f">
+               <title>Add an attendee to an expected expense</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-13521--topicref-64-298-58"
+                      xml:lang="en-us"
+                      xtrc="topicref:11"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc43503a851c310158338bc8858dc1be9">
+               <title>Edit or view attendee details</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-13521--topicref-68-294-86"
+                      xml:lang="en-us"
+                      xtrc="topicref:12"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc435aea351c31015808ef2052e534d53">
+               <title>Remove an attendee from an expected expense</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-13521--topicref-72-290-48"
+                      xml:lang="en-us"
+                      xtrc="topicref:13"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc4352dfc51c310159ebfbc18d05ae4c6">
+               <title>Create an attendee group</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-13521--topicref-76-286-64"
+                      xml:lang="en-us"
+                      xtrc="topicref:14"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc435585451c310158352d0ac9978f4ac">
+               <title>Use the Personal Attendee Import</title>
+            </topicref>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13521--topicref-81-274-146"
+                   xml:lang="en-us"
+                   xtrc="topicref:15"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc4365b0f51c31015ba3de0779d8fac9b">
+            <title>Cash advance overview</title>
+            <topicref class="- map/topicref " sourceId="id-13521--topicref-84-278-42"
+                      xml:lang="en-us"
+                      xtrc="topicref:16"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc43606d751c31015a126e21217171fc9">
+               <title>Create a cash advance</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-13521--topicref-88-274-62"
+                      xml:lang="en-us"
+                      xtrc="topicref:17"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc436311851c310158803d2d9a20229c8">
+               <title>Delete or cancel a cash advance</title>
+            </topicref>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13521--topicref-93-270-54"
+                   xml:lang="en-us"
+                   xtrc="topicref:18"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc436b0a751c310159056d2c0c3c67515">
+            <title>Create a new travel request</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13778--topicref-97-266-42"
+                   xml:lang="en-us"
+                   xtrc="topicref:20"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc43686b251c3101582cd872dbe0874c0">
+            <title>Copy a travel request</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13778--topicref-101-262-28"
+                   xml:lang="en-us"
+                   xtrc="topicref:21"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc437314751c31015ada5f0a336252ed4">
+            <title>Edit a request</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13778--topicref-105-258-48"
+                   xml:lang="en-us"
+                   xtrc="topicref:22"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc437b10d51c31015b791cda751cd80e8">
+            <title>Use Allocation Favorites</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13778--topicref-109-254-34"
+                   xml:lang="en-us"
+                   xtrc="topicref:23"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc4375bd751c31015bb67ce00b6162974">
+            <title>Expected Expenses</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13778--topicref-113-250-32"
+                   xml:lang="en-us"
+                   xtrc="topicref:24"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc43805ed51c31015a3affd61dcfca4ab">
+            <title>Work with images</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13778--topicref-117-246-28"
+                   xml:lang="en-us"
+                   xtrc="topicref:25"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc438304a51c3101583d8b9b53e7fb479">
+            <title>Print requests</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13778--topicref-121-242-54"
+                   xml:lang="en-us"
+                   xtrc="topicref:26"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc43785c951c31015a67f8d20880842d7">
+            <title>Apply a request to a report</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13778--topicref-125-238-32"
+                   xml:lang="en-us"
+                   xtrc="topicref:27"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc43706dc51c31015a479b866fbcc50e1">
+            <title>Delete a request</title>
+         </topicref>
+      </topichead>
+      <topichead xmlns="http://dita4publishers.org/enumerables"
+                 class="+ map/topicref mapgroup-d/mapref "
+                 sourceId="id-20725--topichead-130-229-112"
+                 xml:lang="en-us"
+                 xtrc="topichead:2"
+                 docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+         <title>Request Approver</title>
+         <topicref class="- map/topicref " sourceId="id-13778--topicref-130-233-54"
+                   xml:lang="en-us"
+                   xtrc="topicref:28"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc433863f51c31015b845aa1a15477d0f">
+            <title>Request approval - Overview</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-13778--topicref-134-229-58"
+                   xml:lang="en-us"
+                   xtrc="topicref:29"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc4335bbc51c31015a8dbcdf051052124">
+            <title>Approver actions for requests</title>
+         </topicref>
+      </topichead>
+      <topichead xmlns="http://dita4publishers.org/enumerables"
+                 class="+ map/topicref mapgroup-d/mapref "
+                 sourceId="id-20725--topichead-139-208-228"
+                 xml:lang="en-us"
+                 xtrc="topichead:3"
+                 docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+         <title>Request Processor</title>
+         <topicref class="- map/topicref " sourceId="id-14035--topicref-139-224-76"
+                   xml:lang="en-us"
+                   xtrc="topicref:30"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc433da7651c3101592d4fc0529d6adae">
+            <title>Viewing and processing travel requests</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-14035--topicref-143-220-36"
+                   xml:lang="en-us"
+                   xtrc="topicref:32"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc4342e8a51c31015ab11b3aca1099485">
+            <title>Processor overview</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-14035--topicref-147-216-42"
+                   xml:lang="en-us"
+                   xtrc="topicref:33"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc434586b51c31015a818b46a8647c38a">
+            <title>Processor preferences</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-14035--topicref-151-212-28"
+                   xml:lang="en-us"
+                   xtrc="topicref:34"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc43484bc51c31015b472ca8341196063">
+            <title>Manage queries</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-14035--topicref-155-208-46"
+                   xml:lang="en-us"
+                   xtrc="topicref:35"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc434aeb051c310158902c63c216e832a">
+            <title>Request Processor Roles</title>
+         </topicref>
+      </topichead>
+      <topichead xmlns="http://dita4publishers.org/enumerables"
+                 class="+ map/topicref mapgroup-d/mapref "
+                 sourceId="id-41375--topichead-160-0-2729"
+                 xml:lang="en-us"
+                 xtrc="topichead:1"
+                 docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+         <title>Profile</title>
+         <topicref class="- map/topicref " sourceId="id-2634--topicref-160-203-40"
+                   xml:lang="en-us"
+                   xtrc="topicref:1"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc42a4ed451c3101590b4a568177e0433">
+            <title>Change your password</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-2634--topicref-164-199-72"
+                   xml:lang="en-us"
+                   xtrc="topicref:2"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc4392ea451c3101580fe88965dd76be8">
+            <title>Set your password security questions</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-2634--topicref-168-195-88"
+                   xml:lang="en-us"
+                   xtrc="topicref:3"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc432887651c31015b22fee2352e3037e">
+            <title>Accessibility settings and other preferences</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-2634--topicref-172-191-28"
+                   xml:lang="en-us"
+                   xtrc="topicref:4"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="topic"
+                   topicID="loioc42aa55851c310159ce5b022daabd21a">
+            <title>Connected Apps</title>
+         </topicref>
+         <topicref class="- map/topicref " sourceId="id-2634--topicref-176-187-40"
+                   xml:lang="en-us"
+                   xtrc="topicref:5"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                   type="concept"
+                   topicID="loiob1b89f1ec46d4298ba95f521768168d6">
+            <title>User Interface Icons</title>
+            <table class="- topic/table "
+                   sourceId="id-40313-loiob1b89f1ec46d4298ba95f521768168d6--table_chv_ylr_kxtable-8-570-1027"
+                   origId="table_chv_ylr_kx"
+                   xml:lang="en-us"
+                   xtrc="table:1"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/b1b89f1ec46d4298ba95f521768168d6.xml"/>
+            <table class="- topic/table "
+                   sourceId="id-40313-loiob1b89f1ec46d4298ba95f521768168d6--table_nn2_hnr_kxtable-72-443-2446"
+                   origId="table_nn2_hnr_kx"
+                   xml:lang="en-us"
+                   xtrc="table:2"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/b1b89f1ec46d4298ba95f521768168d6.xml"/>
+            <table class="- topic/table "
+                   sourceId="id-40313-loiob1b89f1ec46d4298ba95f521768168d6--table_jgf_str_kxtable-199-151-6641"
+                   origId="table_jgf_str_kx"
+                   xml:lang="en-us"
+                   xtrc="table:3"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/b1b89f1ec46d4298ba95f521768168d6.xml"/>
+            <table class="- topic/table "
+                   sourceId="id-40313-loiob1b89f1ec46d4298ba95f521768168d6--table_d44_jwr_kxtable-492-56-1814"
+                   origId="table_d44_jwr_kx"
+                   xml:lang="en-us"
+                   xtrc="table:4"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/b1b89f1ec46d4298ba95f521768168d6.xml"/>
+            <table class="- topic/table "
+                   sourceId="id-40313-loiob1b89f1ec46d4298ba95f521768168d6--table_ksc_1xr_kxtable-587-0-1020"
+                   origId="table_ksc_1xr_kx"
+                   xml:lang="en-us"
+                   xtrc="table:5"
+                   docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/b1b89f1ec46d4298ba95f521768168d6.xml"/>
+         </topicref>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-41375--topichead-180-104-1048"
+                    xml:lang="en-us"
+                    xtrc="topichead:2"
+                    docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+            <title>Expense Settings</title>
+            <topicref class="- map/topicref " sourceId="id-2634--topicref-180-182-60"
+                      xml:lang="en-us"
+                      xtrc="topicref:6"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="copy45b1ea8ad2ae4e4285b82a4308ec2474">
+               <title>Feature Access and Permissions</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-2634--topicref-184-178-68"
+                      xml:lang="en-us"
+                      xtrc="topicref:7"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42fa9e351c310159846e44fea5411f1">
+               <title>Profile and Preferences - Overview</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-2634--topicref-188-174-32"
+                      xml:lang="en-us"
+                      xtrc="topicref:9"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42a221451c31015b57ce81a5c55396c">
+               <title>Bank Information</title>
+               <table class="- topic/table "
+                      sourceId="id-62495-loioc42a221451c31015b57ce81a5c55396c--table-25-1709-1918"
+                      xml:lang="en-us"
+                      xtrc="table:1"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-62495-loioc42a221451c31015b57ce81a5c55396c--table_irv_syv_qytable-62-1671-2073"
+                      origId="table_irv_syv_qy"
+                      xml:lang="en-us"
+                      xtrc="table:2"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-62495-loioc42a221451c31015b57ce81a5c55396c--table-100-1599-3046"
+                      xml:lang="en-us"
+                      xtrc="table:3"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-62495-loioc42a221451c31015b57ce81a5c55396c--table_hgv_dzv_qytable-172-1561-1909"
+                      origId="table_hgv_dzv_qy"
+                      xml:lang="en-us"
+                      xtrc="table:4"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-62495-loioc42a221451c31015b57ce81a5c55396c--table-210-1524-1434"
+                      xml:lang="en-us"
+                      xtrc="table:5"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-62495-loioc42a221451c31015b57ce81a5c55396c--table_jss_nzv_qytable-247-1492-2224"
+                      origId="table_jss_nzv_qy"
+                      xml:lang="en-us"
+                      xtrc="table:6"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-62495-loioc42a221451c31015b57ce81a5c55396c--table_pzt_4zv_qytable-279-1460-1586"
+                      origId="table_pzt_4zv_qy"
+                      xml:lang="en-us"
+                      xtrc="table:7"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-62495-loioc42a221451c31015b57ce81a5c55396c--table_ugv_pzv_qytable-311-1413-2845"
+                      origId="table_ugv_pzv_qy"
+                      xml:lang="en-us"
+                      xtrc="table:8"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-62495-loioc42a221451c31015b57ce81a5c55396c--table_ctr_rzv_qytable-358-1384-2074"
+                      origId="table_ctr_rzv_qy"
+                      xml:lang="en-us"
+                      xtrc="table:9"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-17744-loioc42a221451c31015b57ce81a5c55396c--table-387-1292-3559"
+                      xml:lang="en-us"
+                      xtrc="table:10"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-17744-loioc42a221451c31015b57ce81a5c55396c--table-479-1198-3906"
+                      xml:lang="en-us"
+                      xtrc="table:11"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-17744-loioc42a221451c31015b57ce81a5c55396c--table_slv_cbw_qytable-573-1169-1466"
+                      origId="table_slv_cbw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:12"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-17744-loioc42a221451c31015b57ce81a5c55396c--table-602-1096-3188"
+                      xml:lang="en-us"
+                      xtrc="table:13"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-17744-loioc42a221451c31015b57ce81a5c55396c--table_ynk_kbw_qytable-675-1067-2073"
+                      origId="table_ynk_kbw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:14"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-17744-loioc42a221451c31015b57ce81a5c55396c--table-704-975-3709"
+                      xml:lang="en-us"
+                      xtrc="table:15"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-17744-loioc42a221451c31015b57ce81a5c55396c--table-796-878-3894"
+                      xml:lang="en-us"
+                      xtrc="table:16"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-17744-loioc42a221451c31015b57ce81a5c55396c--table_v14_pbw_qytable-893-852-1914"
+                      origId="table_v14_pbw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:17"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-17744-loioc42a221451c31015b57ce81a5c55396c--table_omg_rbw_qytable-919-826-1982"
+                      origId="table_omg_rbw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:18"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-17744-loioc42a221451c31015b57ce81a5c55396c--table_kr1_tbw_qytable-945-800-1599"
+                      origId="table_kr1_tbw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:19"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18001-loioc42a221451c31015b57ce81a5c55396c--table_a1q_5bw_qytable-971-762-2049"
+                      origId="table_a1q_5bw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:20"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18001-loioc42a221451c31015b57ce81a5c55396c--table-1009-653-6681"
+                      xml:lang="en-us"
+                      xtrc="table:21"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18001-loioc42a221451c31015b57ce81a5c55396c--table-1118-581-2832"
+                      xml:lang="en-us"
+                      xtrc="table:22"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18001-loioc42a221451c31015b57ce81a5c55396c--table_p5d_jcw_qytable-1190-555-1250"
+                      origId="table_p5d_jcw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:23"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18001-loioc42a221451c31015b57ce81a5c55396c--table_kn5_pcw_qytable-1216-526-1480"
+                      origId="table_kn5_pcw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:24"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18001-loioc42a221451c31015b57ce81a5c55396c--table-1245-448-4182"
+                      xml:lang="en-us"
+                      xtrc="table:25"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18001-loioc42a221451c31015b57ce81a5c55396c--table-1323-371-4189"
+                      xml:lang="en-us"
+                      xtrc="table:26"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18001-loioc42a221451c31015b57ce81a5c55396c--table_ds4_ddw_qytable-1400-335-2019"
+                      origId="table_ds4_ddw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:27"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18001-loioc42a221451c31015b57ce81a5c55396c--table_k1q_zcw_qytable-1436-306-1748"
+                      origId="table_k1q_zcw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:28"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18001-loioc42a221451c31015b57ce81a5c55396c--table-1465-182-7641"
+                      xml:lang="en-us"
+                      xtrc="table:29"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18258-loioc42a221451c31015b57ce81a5c55396c--table_lqt_wdw_qytable-1589-153-1413"
+                      origId="table_lqt_wdw_qy"
+                      xml:lang="en-us"
+                      xtrc="table:30"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18258-loioc42a221451c31015b57ce81a5c55396c--table-1635-103-1665"
+                      xml:lang="en-us"
+                      xtrc="table:31"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-18258-loioc42a221451c31015b57ce81a5c55396c--table-1673-43-2714"
+                      xml:lang="en-us"
+                      xtrc="table:32"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42a221451c31015b57ce81a5c55396c.xml"/>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34171--topicref-192-170-48"
+                      xml:lang="en-us"
+                      xtrc="topicref:10"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42a7b1051c31015a042b653082b363e">
+               <title>Company Car Registration</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34171--topicref-196-166-50"
+                      xml:lang="en-us"
+                      xtrc="topicref:11"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc4307cb951c310159ede8cebb35c511f">
+               <title>Personal Car Registration</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34171--topicref-200-162-34"
+                      xml:lang="en-us"
+                      xtrc="topicref:12"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42b276f51c31015acce80ce14d10b96">
+               <title>Enable E-Receipts</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34171--topicref-204-158-34"
+                      xml:lang="en-us"
+                      xtrc="topicref:13"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42b519e51c31015aab7d277e667f860">
+               <title>Expense Approvers</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34171--topicref-208-154-38"
+                      xml:lang="en-us"
+                      xtrc="topicref:14"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42cd06d51c31015928d9ed51a0c4d15">
+               <title>Expense Preferences</title>
+               <table class="- topic/table "
+                      sourceId="id-4224-loioc42cd06d51c31015928d9ed51a0c4d15--table-20-74-6768"
+                      xml:lang="en-us"
+                      xtrc="table:1"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42cd06d51c31015928d9ed51a0c4d15.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-4224-loioc42cd06d51c31015928d9ed51a0c4d15--table_v34_wmb_vwtable-85-51-2546"
+                      origId="table_v34_wmb_vw"
+                      xml:lang="en-us"
+                      xtrc="table:2"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42cd06d51c31015928d9ed51a0c4d15.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-4224-loioc42cd06d51c31015928d9ed51a0c4d15--table_lgh_fvw_4ytable-108-31-1115"
+                      origId="table_lgh_fvw_4y"
+                      xml:lang="en-us"
+                      xtrc="table:3"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42cd06d51c31015928d9ed51a0c4d15.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-4224-loioc42cd06d51c31015928d9ed51a0c4d15--table_r1z_cnb_vwtable-128-3-1970"
+                      origId="table_r1z_cnb_vw"
+                      xml:lang="en-us"
+                      xtrc="table:4"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42cd06d51c31015928d9ed51a0c4d15.xml"/>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34171--topicref-212-150-62"
+                      xml:lang="en-us"
+                      xtrc="topicref:15"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc430a78251c310159d20a8bfcc2d57fe">
+               <title>Register a Personal Credit Card</title>
+            </topicref>
+            <topichead class="+ map/topicref mapgroup-d/topichead "
+                       sourceId="id-41375--topichead-216-125-310"
+                       xml:lang="en-us"
+                       xtrc="topichead:3"
+                       docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+               <title>Expense Delegates</title>
+               <topicref class="- map/topicref " sourceId="id-34171--topicref-216-145-46"
+                         xml:lang="en-us"
+                         xtrc="topicref:16"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42b7c7e51c31015b3b1d90fd98ea953">
+                  <title>Access Expense Delegate</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34171--topicref-220-141-40"
+                         xml:lang="en-us"
+                         xtrc="topicref:17"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42ba7f351c310159a18b9e6d3599f3a">
+                  <title>Add Expense Delegate</title>
+                  <table class="- topic/table "
+                         sourceId="id-21138-loioc42ba7f351c310159a18b9e6d3599f3a--table-15-7-8077"
+                         xml:lang="en-us"
+                         xtrc="table:1"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42ba7f351c310159a18b9e6d3599f3a.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34171--topicref-224-137-44"
+                         xml:lang="en-us"
+                         xtrc="topicref:19"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42c7c8d51c31015917ccd4a943c8814">
+                  <title>Edit Expense Delegates</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34428--topicref-228-133-46"
+                         xml:lang="en-us"
+                         xtrc="topicref:20"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42c27a251c310158552ffbddb8d077b">
+                  <title>Delete Expense Delegate</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34428--topicref-232-129-68"
+                         xml:lang="en-us"
+                         xtrc="topicref:21"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42c525051c31015b809d2c9cdfef810">
+                  <title>Delete Expense Delegate Assignment</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34428--topicref-236-125-66"
+                         xml:lang="en-us"
+                         xtrc="topicref:22"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42bfd9c51c31015b6feaa8f4b896adc">
+                  <title>Delegate Preview for the Approver</title>
+               </topicref>
+            </topichead>
+            <topichead class="+ map/topicref mapgroup-d/topichead "
+                       sourceId="id-41375--topichead-241-104-312"
+                       xml:lang="en-us"
+                       xtrc="topichead:4"
+                       docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+               <title>Favorite Attendees</title>
+               <topicref class="- map/topicref " sourceId="id-34428--topicref-241-120-58"
+                         xml:lang="en-us"
+                         xtrc="topicref:23"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42dd2a251c31015b1f9f0fe1eb73268">
+                  <title>Favorite Attendees - Overview</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34428--topicref-245-116-46"
+                         xml:lang="en-us"
+                         xtrc="topicref:24"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42e271551c310158b90ffcaafdc6b7c">
+                  <title>Add a Favorite Attendee</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34428--topicref-249-112-72"
+                         xml:lang="en-us"
+                         xtrc="topicref:25"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42e517651c31015ade8d4d33585f78a">
+                  <title>Add a Favorite Attendee Using Search</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34428--topicref-253-108-52"
+                         xml:lang="en-us"
+                         xtrc="topicref:26"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42e7c0651c3101585d4fc23078b4451">
+                  <title>Delete a Favorite Attendee</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34428--topicref-257-104-84"
+                         xml:lang="en-us"
+                         xtrc="topicref:27"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc42ea73051c31015a226bee1623f54ec">
+                  <title>Edit or View Favorite Attendee Information</title>
+               </topicref>
+            </topichead>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-41375--topichead-263-83-234"
+                    xml:lang="en-us"
+                    xtrc="topichead:5"
+                    docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+            <title>Invoice Settings</title>
+            <topicref class="- map/topicref " sourceId="id-34428--topicref-263-99-60"
+                      xml:lang="en-us"
+                      xtrc="topicref:28"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="copyf4422437b73e47e59e043af2ba15a3a8">
+               <title>Feature Access and Permissions</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34428--topicref-267-95-68"
+                      xml:lang="en-us"
+                      xtrc="topicref:29"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42fd46c51c310158ff29e12ff439eff">
+               <title>Profile and preferences - overview</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34685--topicref-271-91-34"
+                      xml:lang="en-us"
+                      xtrc="topicref:30"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42ed1c051c31015be2192a881df90c3">
+               <title>Invoice approvers</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34685--topicref-275-87-38"
+                      xml:lang="en-us"
+                      xtrc="topicref:31"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42f2b9451c31015808bbe0ac1e996ed">
+               <title>Invoice preferences</title>
+               <table class="- topic/table "
+                      sourceId="id-697-loioc42f2b9451c31015808bbe0ac1e996ed--table-14-76-4466"
+                      xml:lang="en-us"
+                      xtrc="table:1"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42f2b9451c31015808bbe0ac1e996ed.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-697-loioc42f2b9451c31015808bbe0ac1e996ed--table_sn3_44b_vwtable-64-50-3013"
+                      origId="table_sn3_44b_vw"
+                      xml:lang="en-us"
+                      xtrc="table:2"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42f2b9451c31015808bbe0ac1e996ed.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-697-loioc42f2b9451c31015808bbe0ac1e996ed--table_v42_bpb_vwtable-90-23-2255"
+                      origId="table_v42_bpb_vw"
+                      xml:lang="en-us"
+                      xtrc="table:3"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42f2b9451c31015808bbe0ac1e996ed.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-697-loioc42f2b9451c31015808bbe0ac1e996ed--table_ntl_2pb_vwtable-117-3-1700"
+                      origId="table_ntl_2pb_vw"
+                      xml:lang="en-us"
+                      xtrc="table:4"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42f2b9451c31015808bbe0ac1e996ed.xml"/>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34685--topicref-279-83-34"
+                      xml:lang="en-us"
+                      xtrc="topicref:32"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42efea351c31015bfd1c88fb55c73f9">
+               <title>Invoice delegates</title>
+               <table class="- topic/table "
+                      sourceId="id-53025-loioc42efea351c31015bfd1c88fb55c73f9--table-33-32-2999"
+                      xml:lang="en-us"
+                      xtrc="table:1"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c42efea351c31015bfd1c88fb55c73f9.xml"/>
+            </topicref>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-41375--topichead-284-45-464"
+                    xml:lang="en-us"
+                    xtrc="topichead:6"
+                    docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+            <title>Request Settings</title>
+            <topicref class="- map/topicref " sourceId="id-34685--topicref-284-78-60"
+                      xml:lang="en-us"
+                      xtrc="topicref:33"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="copya615eef062ae446db4cbaebc2c594fb8">
+               <title>Feature Access and Permissions</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34685--topicref-288-74-48"
+                      xml:lang="en-us"
+                      xtrc="topicref:34"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc43159bd51c3101581db9e4b14e42575">
+               <title>Travel Request approvers</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34685--topicref-292-70-52"
+                      xml:lang="en-us"
+                      xtrc="topicref:35"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc4322e8f51c31015a5cc97d75bbeec06">
+               <title>Travel Request information</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34685--topicref-296-66-52"
+                      xml:lang="en-us"
+                      xtrc="topicref:36"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc4325c4651c31015866afd1d43c68c88">
+               <title>Travel Request preferences</title>
+               <table class="- topic/table "
+                      sourceId="id-64306-loioc4325c4651c31015866afd1d43c68c88--table-13-19-1052"
+                      xml:lang="en-us"
+                      xtrc="table:1"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c4325c4651c31015866afd1d43c68c88.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-64306-loioc4325c4651c31015866afd1d43c68c88--table_tnv_npb_vwtable-34-3-1790"
+                      origId="table_tnv_npb_vw"
+                      xml:lang="en-us"
+                      xtrc="table:2"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c4325c4651c31015866afd1d43c68c88.xml"/>
+            </topicref>
+            <topichead class="+ map/topicref mapgroup-d/topichead "
+                       sourceId="id-41375--topichead-300-45-252"
+                       xml:lang="en-us"
+                       xtrc="topichead:7"
+                       docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+               <title>Request Delegates</title>
+               <topicref class="- map/topicref " sourceId="id-34685--topicref-300-61-48"
+                         xml:lang="en-us"
+                         xtrc="topicref:37"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc431843151c310158c14bd2d44613ac0">
+                  <title>Access Request delegates</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34685--topicref-304-57-42"
+                         xml:lang="en-us"
+                         xtrc="topicref:38"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc431afd351c31015afbbf8868c8045e4">
+                  <title>Add Request delegates</title>
+                  <table class="- topic/table "
+                         sourceId="id-40378-loioc431afd351c31015afbbf8868c8045e4--table-15-12-1668"
+                         xml:lang="en-us"
+                         xtrc="table:1"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c431afd351c31015afbbf8868c8045e4.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34685--topicref-308-53-50"
+                         xml:lang="en-us"
+                         xtrc="topicref:39"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc431d9de51c31015808385293f6e1246">
+                  <title>Delete a Request delegate</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34942--topicref-312-49-46"
+                         xml:lang="en-us"
+                         xtrc="topicref:40"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="loioc43203ac51c3101592e29c2db8d0f94a">
+                  <title>Edit a Request delegate</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-34942--topicref-316-45-66"
+                         xml:lang="en-us"
+                         xtrc="topicref:41"
+                         docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                         type="topic"
+                         topicID="copy668d35c7f99242aa8e1b65c44825f2c8">
+                  <title>Delegate Preview for the Approver</title>
+               </topicref>
+            </topichead>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-41375--topichead-322-0-715"
+                    xml:lang="en-us"
+                    xtrc="topichead:8"
+                    docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap">
+            <title>Travel Settings</title>
+            <topicref class="- map/topicref " sourceId="id-34942--topicref-322-40-60"
+                      xml:lang="en-us"
+                      xtrc="topicref:42"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="copy8445fb277e374e50b53ec5cfd7d56674">
+               <title>Feature Access and Permissions</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34942--topicref-326-36-36"
+                      xml:lang="en-us"
+                      xtrc="topicref:43"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc430283551c310159691e06067c02cba">
+               <title>Profile - overview</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34942--topicref-330-32-62"
+                      xml:lang="en-us"
+                      xtrc="topicref:44"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc429f36251c310159365bfdc8d7e9a05">
+               <title>Assign an assistant or arranger</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34942--topicref-334-28-70"
+                      xml:lang="en-us"
+                      xtrc="topicref:45"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc42acff551c31015b84ba822d1ab47e8">
+               <title>Manage your credit card information</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34942--topicref-338-24-34"
+                      xml:lang="en-us"
+                      xtrc="topicref:46"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="copy263efe4830394343a14f6154c6d5d16c">
+               <title>Enable E-Receipts</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34942--topicref-342-20-64"
+                      xml:lang="en-us"
+                      xtrc="topicref:47"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc430d3b151c310158ca5aff326c5bcc6">
+               <title>Change your personal preferences</title>
+               <table class="- topic/table "
+                      sourceId="id-32728-loioc430d3b151c310158ca5aff326c5bcc6--table-10-7-951"
+                      xml:lang="en-us"
+                      xtrc="table:1"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c430d3b151c310158ca5aff326c5bcc6.xml"/>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34942--topicref-346-16-146"
+                      xml:lang="en-us"
+                      xtrc="topicref:48"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc433075c51c31015bef5f732b417fe4e">
+               <title>Change your travel preferences (air, hotel, car rental, rail preferences)</title>
+               <table class="- topic/table "
+                      sourceId="id-7047-loioc433075c51c31015bef5f732b417fe4e--table-14-7-8955"
+                      xml:lang="en-us"
+                      xtrc="table:1"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c433075c51c31015bef5f732b417fe4e.xml"/>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-34942--topicref-350-12-64"
+                      xml:lang="en-us"
+                      xtrc="topicref:49"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc432dd7b51c31015ada8c605f3fd4be2">
+               <title>Change your regional preferences</title>
+               <table class="- topic/table "
+                      sourceId="id-1295-loioc432dd7b51c31015ada8c605f3fd4be2--table-10-3-2160"
+                      xml:lang="en-us"
+                      xtrc="table:1"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c432dd7b51c31015ada8c605f3fd4be2.xml"/>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-35199--topicref-354-8-55" xml:lang="en-us"
+                      xtrc="topicref:50"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc432b2ac51c31015b8f2967f7c07e572">
+               <title>Choose your approval emails </title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-35199--topicref-358-4-40" xml:lang="en-us"
+                      xtrc="topicref:51"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc431037851c31015a0a886318f54c9e0">
+               <title>Personal Information</title>
+               <table class="- topic/table "
+                      sourceId="id-2245-loioc431037851c31015a0a886318f54c9e0--table-6-0-660"
+                      xml:lang="en-us"
+                      xtrc="table:1"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/c431037851c31015a0a886318f54c9e0.xml"/>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-35199--topicref-362-0-84" xml:lang="en-us"
+                      xtrc="topicref:52"
+                      docUri="file:/d:/ies1487719253612/win64_x64/release/obj/en-US_loiod3ee06d166654089b5219fd261f036bc/html500sap/en-US/release/temp/0f9bd02ad46e41189fc8b20c00e441e6.ditamap"
+                      type="topic"
+                      topicID="loioc43331b751c310159d6df4389c05bc39">
+               <title>Temporarily reassign your Travel approvals</title>
+            </topicref>
+         </topichead>
+      </topichead>
+   </enum:enumerables>
+   <glossdata:glossary-entries xmlns:glossdata="http://dita4publishers.org/glossdata"/>
+</mapdriven:collected-data>

@@ -1,0 +1,419 @@
+<mapdriven:collected-data xmlns:enum="http://dita4publishers.org/enumerables"
+                          xmlns:applicability="http://dita4publishers.org/applicability"
+                          xmlns:index-terms="http://dita4publishers.org/index-terms"
+                          xmlns:mapdriven="http://dita4publishers.org/mapdriven">
+   <enum:enumerables>
+      <topicref xmlns="http://dita4publishers.org/enumerables"
+                class="+ map/topicref mapgroup-d/mapref "
+                sourceId="id-36210--topicref-25-113-58"
+                xml:lang="en-us"
+                xtrc="topicref:31"
+                docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                type="concept"
+                topicID="loiod5a91f3324544affb49010fd89b899a0">
+         <title>What's New - Standard Edition</title>
+         <table class="- topic/table "
+                sourceId="id-13995-loiod5a91f3324544affb49010fd89b899a0--table_tqh_2g4_lxtable-4-0-1347"
+                origId="table_tqh_2g4_lx"
+                xml:lang="en-us"
+                xtrc="table:1"
+                docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/d5a91f3324544affb49010fd89b899a0.xml"/>
+      </topicref>
+      <topicref xmlns="http://dita4publishers.org/enumerables"
+                class="+ map/topicref mapgroup-d/mapref "
+                sourceId="id-36210--topicref-29-0-2572"
+                xml:lang="en-us"
+                xtrc="topicref:32"
+                docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                type="concept"
+                topicID="loio4b44a99635954d8dbeb86030e0b88f07">
+         <title>Release Note Admin Summaries (Translated, HTML Format) - Standard Edition</title>
+         <table class="- topic/table "
+                sourceId="id-20866-loio4b44a99635954d8dbeb86030e0b88f07--table_ukg_t34_lxtable-4-3-2339"
+                origId="table_ukg_t34_lx"
+                xml:lang="en-us"
+                xtrc="table:1"
+                docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/4b44a99635954d8dbeb86030e0b88f07.xml"/>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-28101--topichead-32-83-615"
+                    xml:lang="en-us"
+                    xtrc="topichead:11"
+                    docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap">
+            <title>Expense</title>
+            <topicref class="- map/topicref " sourceId="id-36210--topicref-32-104-102"
+                      xml:lang="en-us"
+                      xtrc="topicref:33"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loio4bb3149c07044eb28ec2e332953dd8b3">
+               <title>January 2017 Expense Standard Edition Admin Summary</title>
+               <title>Expense Reports</title>
+               <title>Expense Pay</title>
+               <title>Concur User Interface</title>
+               <table class="- topic/table "
+                      sourceId="id-36508-loio4bb3149c07044eb28ec2e332953dd8b3--table_kxl_jkc_fytable-38-211-353"
+                      origId="table_kxl_jkc_fy"
+                      xml:lang="en-us"
+                      xtrc="table:1"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/4bb3149c07044eb28ec2e332953dd8b3.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-36508-loio4bb3149c07044eb28ec2e332953dd8b3--table_xlt_nkc_fytable-67-161-718"
+                      origId="table_xlt_nkc_fy"
+                      xml:lang="en-us"
+                      xtrc="table:2"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/4bb3149c07044eb28ec2e332953dd8b3.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-36508-loio4bb3149c07044eb28ec2e332953dd8b3--table_nnd_wnc_fytable-116-57-2103"
+                      origId="table_nnd_wnc_fy"
+                      xml:lang="en-us"
+                      xtrc="table:3"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/4bb3149c07044eb28ec2e332953dd8b3.xml"/>
+               <table class="- topic/table "
+                      sourceId="id-36508-loio4bb3149c07044eb28ec2e332953dd8b3--table_kjc_ckc_fytable-221-31-285"
+                      origId="table_kjc_ckc_fy"
+                      xml:lang="en-us"
+                      xtrc="table:4"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/4bb3149c07044eb28ec2e332953dd8b3.xml"/>
+               <title>**Reminder**</title>
+               <title>Coming Soon</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-36210--topicref-36-100-104"
+                      xml:lang="en-us"
+                      xtrc="topicref:34"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loio9915c245e7d34dbcbfaae426fc811d38">
+               <title>February 2017 Expense Standard Edition Admin Summary</title>
+               <title>QuickBooks</title>
+               <title>Company Card Tool</title>
+               <title>Expense Pay</title>
+               <title>Japan Public Transportation (JPT)</title>
+               <title>**Reminder**</title>
+               <title>Coming Soon</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-36210--topicref-40-96-99" xml:lang="en-us"
+                      xtrc="topicref:35"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loioda3115e1c81f4ab78498ef6cd668d931">
+               <title> March 2017 Expense Standard Edition Admin Summary</title>
+               <title>Expense Pay</title>
+               <title>Setup</title>
+               <title>QuickBooks</title>
+               <title>Japan Public Transportation
+				(JPT)</title>
+               <title>Concur User Interface</title>
+               <title>Help</title>
+               <title>TLS</title>
+               <title>**Reminder**</title>
+               <title>Coming Soon</title>
+            </topicref>
+            <topichead class="+ map/topicref mapgroup-d/topichead "
+                       sourceId="id-28101--topichead-44-83-310"
+                       xml:lang="en-us"
+                       xtrc="topichead:12"
+                       docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap">
+               <title>2016</title>
+               <topicref class="- map/topicref " sourceId="id-36210--topicref-44-91-104"
+                         xml:lang="en-us"
+                         xtrc="topicref:36"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loio937223162b9b4d22a302ff92a4c8f0e6">
+                  <title>December 2016 Expense Standard Edition Admin Summary</title>
+                  <table class="- topic/table "
+                         sourceId="id-11885-loio937223162b9b4d22a302ff92a4c8f0e6--table_stx_ygc_fytable-9-285-1020"
+                         origId="table_stx_ygc_fy"
+                         xml:lang="en-us"
+                         xtrc="table:1"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/937223162b9b4d22a302ff92a4c8f0e6.xml"/>
+                  <table class="- topic/table "
+                         sourceId="id-11885-loio937223162b9b4d22a302ff92a4c8f0e6--table_kxl_jkc_fytable-152-182-321"
+                         origId="table_kxl_jkc_fy"
+                         xml:lang="en-us"
+                         xtrc="table:2"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/937223162b9b4d22a302ff92a4c8f0e6.xml"/>
+                  <table class="- topic/table "
+                         sourceId="id-11885-loio937223162b9b4d22a302ff92a4c8f0e6--table_xlt_nkc_fytable-180-133-653"
+                         origId="table_xlt_nkc_fy"
+                         xml:lang="en-us"
+                         xtrc="table:3"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/937223162b9b4d22a302ff92a4c8f0e6.xml"/>
+                  <table class="- topic/table "
+                         sourceId="id-11885-loio937223162b9b4d22a302ff92a4c8f0e6--table_nnd_wnc_fytable-228-32-1918"
+                         origId="table_nnd_wnc_fy"
+                         xml:lang="en-us"
+                         xtrc="table:4"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/937223162b9b4d22a302ff92a4c8f0e6.xml"/>
+                  <table class="- topic/table "
+                         sourceId="id-11885-loio937223162b9b4d22a302ff92a4c8f0e6--table_kjc_ckc_fytable-329-8-259"
+                         origId="table_kjc_ckc_fy"
+                         xml:lang="en-us"
+                         xtrc="table:5"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/937223162b9b4d22a302ff92a4c8f0e6.xml"/>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-36210--topicref-48-87-104"
+                         xml:lang="en-us"
+                         xtrc="topicref:37"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loio3dd49fdaea7249f39cdba9dc749476cb">
+                  <title>November 2016 Expense Standard Edition Admin Summary</title>
+                  <table class="- topic/table "
+                         sourceId="id-60329-loio3dd49fdaea7249f39cdba9dc749476cb--table_hgx_5f1_vxtable-38-40-1347"
+                         origId="table_hgx_5f1_vx"
+                         xml:lang="en-us"
+                         xtrc="table:1"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/3dd49fdaea7249f39cdba9dc749476cb.xml">
+                     <title>Deprecated APIs and API Functions</title>
+                  </table>
+                  <title>Deprecated APIs and API Functions</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-36210--topicref-52-83-102"
+                         xml:lang="en-us"
+                         xtrc="topicref:38"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loio04d7161316004d3382f7697a69ae3a86">
+                  <title>October 2016 Expense Standard Edition Admin Summary</title>
+                  <table class="- topic/table "
+                         sourceId="id-58342-loio04d7161316004d3382f7697a69ae3a86--table_pvh_1w2_pxtable-51-21-973"
+                         origId="table_pvh_1w2_px"
+                         xml:lang="en-us"
+                         xtrc="table:1"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/04d7161316004d3382f7697a69ae3a86.xml"/>
+               </topicref>
+            </topichead>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-28101--topichead-58-57-615"
+                    xml:lang="en-us"
+                    xtrc="topichead:13"
+                    docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap">
+            <title>Invoice</title>
+            <topicref class="- map/topicref " sourceId="id-36210--topicref-58-78-102"
+                      xml:lang="en-us"
+                      xtrc="topicref:39"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loioda8a95749f1443208a2745a97208932e">
+               <title>January 2017 Invoice Standard Edition Admin Summary</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-36467--topicref-62-74-104"
+                      xml:lang="en-us"
+                      xtrc="topicref:40"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loio58118f816a324c1e81485ebf940bd0fa">
+               <title>February 2017 Invoice Standard Edition Admin Summary</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-36467--topicref-66-70-99" xml:lang="en-us"
+                      xtrc="topicref:41"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loio514d5c4545c64ca1b9115cef7f7cbfa4">
+               <title>
+March 2017 Invoice Standard Edition Admin Summary</title>
+            </topicref>
+            <topichead class="+ map/topicref mapgroup-d/topichead "
+                       sourceId="id-28101--topichead-70-57-310"
+                       xml:lang="en-us"
+                       xtrc="topichead:14"
+                       docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap">
+               <title>2016</title>
+               <topicref class="- map/topicref " sourceId="id-36467--topicref-70-65-104"
+                         xml:lang="en-us"
+                         xtrc="topicref:42"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loio135f6da7ba224092abb3096e1794c7c1">
+                  <title>December 2016 Invoice Standard Edition Admin Summary</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-36467--topicref-74-61-104"
+                         xml:lang="en-us"
+                         xtrc="topicref:43"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loioae0312d37b484697b3a86dff0bde3d1d">
+                  <title>November 2016 Invoice Standard Edition Admin Summary</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-36467--topicref-78-57-102"
+                         xml:lang="en-us"
+                         xtrc="topicref:44"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loiodaed5269e04e4a8d83021e98e40e08c3">
+                  <title>October 2016 Invoice Standard Edition Admin Summary</title>
+               </topicref>
+            </topichead>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-28101--topichead-84-39-288"
+                    xml:lang="en-us"
+                    xtrc="topichead:15"
+                    docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap">
+            <title>Mobile</title>
+            <topicref class="- map/topicref " sourceId="id-36467--topicref-84-52-66" xml:lang="en-us"
+                      xtrc="topicref:45"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loio6705c9049cac4a59adb88228a5480c67">
+               <title>January 2017 Mobile Admin Summary</title>
+               <title>iPhone ONLY – Allocations</title>
+               <title>Operating System Update</title>
+               <title>Additional Changes</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-36467--topicref-88-48-86" xml:lang="en-us"
+                      xtrc="topicref:46"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loio1a5bfd2be1684c3eaac7a3a3b794790c">
+               <title>February 2017 Mobile Standard Admin Summary</title>
+               <title>Android / iPhone / iPad</title>
+               <title>iPhone / iPad</title>
+               <title>Android</title>
+            </topicref>
+            <topichead class="+ map/topicref mapgroup-d/topichead "
+                       sourceId="id-28101--topichead-92-39-136"
+                       xml:lang="en-us"
+                       xtrc="topichead:16"
+                       docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap">
+               <title>2016</title>
+               <topicref class="- map/topicref " sourceId="id-36467--topicref-92-43-68" xml:lang="en-us"
+                         xtrc="topicref:47"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loio71ab4576d70745e3a922ad2e85d329e8">
+                  <title>December 2016 Mobile Admin Summary</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-36467--topicref-96-39-68" xml:lang="en-us"
+                         xtrc="topicref:48"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loio9dc056c0193a4942ae938badea31c967">
+                  <title>November 2016 Mobile Admin Summary</title>
+               </topicref>
+            </topichead>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-28101--topichead-102-26-305"
+                    xml:lang="en-us"
+                    xtrc="topichead:17"
+                    docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap">
+            <title>Request</title>
+            <topicref class="- map/topicref " sourceId="id-36467--topicref-102-34-102"
+                      xml:lang="en-us"
+                      xtrc="topicref:49"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loio4b0628b08df44b23bbc9a6935d1810cd">
+               <title>January 2017 Request Standard Edition Admin Summary</title>
+               <title>Request</title>
+               <title>Administration</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-36724--topicref-106-30-104"
+                      xml:lang="en-us"
+                      xtrc="topicref:50"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loio243428ba6f6d4523b1c6f2b753f18682">
+               <title>February 2017 Request Standard Edition Admin Summary</title>
+               <title>Request</title>
+               <title>Administration</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-36724--topicref-110-26-99"
+                      xml:lang="en-us"
+                      xtrc="topicref:51"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loiob63f422026774d649a6d0daee0ef7ef6">
+               <title>March  2017 Request Standard Edition Admin Summary</title>
+               <title>Request</title>
+               <title>Help</title>
+               <title>Terminology</title>
+               <title>Administration</title>
+               <title>Supported Configurations</title>
+            </topicref>
+         </topichead>
+         <topichead class="+ map/topicref mapgroup-d/topichead "
+                    sourceId="id-28101--topichead-115-0-603"
+                    xml:lang="en-us"
+                    xtrc="topichead:18"
+                    docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap">
+            <title>Travel</title>
+            <topicref class="- map/topicref " sourceId="id-36724--topicref-115-21-100"
+                      xml:lang="en-us"
+                      xtrc="topicref:52"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loio99e99525b4594e1c858f2b10141dbab0">
+               <title>January 2017 Travel Standard Edition Admin Summary</title>
+               <title>Flight</title>
+               <title>Web Fares</title>
+               <title>Train</title>
+               <title>Profile </title>
+               <title>Miscellaneous</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-36724--topicref-119-17-102"
+                      xml:lang="en-us"
+                      xtrc="topicref:53"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loioc30787de8a694d99a2397dcd2b015329">
+               <title>February 2017 Travel Standard Edition Admin Summary</title>
+               <title>Flight</title>
+               <title>Web Fares</title>
+               <title>Car</title>
+               <title>Train</title>
+               <title>Miscellaneous</title>
+            </topicref>
+            <topicref class="- map/topicref " sourceId="id-36724--topicref-123-13-97"
+                      xml:lang="en-us"
+                      xtrc="topicref:54"
+                      docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                      type="concept"
+                      topicID="loio564819394f864d62adac2b5ba08f6c0d">
+               <title>
+March 2017 Travel Standard Edition Admin Summary</title>
+               <title>Administration</title>
+               <title>Flight</title>
+               <title>Web Fares</title>
+               <title>Train</title>
+               <title>Miscellaneous</title>
+            </topicref>
+            <topichead class="+ map/topicref mapgroup-d/topichead "
+                       sourceId="id-28101--topichead-127-0-304"
+                       xml:lang="en-us"
+                       xtrc="topichead:19"
+                       docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap">
+               <title>2016</title>
+               <topicref class="- map/topicref " sourceId="id-36724--topicref-127-8-102"
+                         xml:lang="en-us"
+                         xtrc="topicref:55"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loio49268d67dd9e48beaeed415cdcaa760d">
+                  <title>December 2016 Travel Standard Edition Admin Summary</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-36724--topicref-131-4-102"
+                         xml:lang="en-us"
+                         xtrc="topicref:56"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loio81f3668ec6e2469b9c445f7b522a8ccf">
+                  <title>November 2016 Travel Standard Edition Admin Summary</title>
+               </topicref>
+               <topicref class="- map/topicref " sourceId="id-36724--topicref-135-0-100"
+                         xml:lang="en-us"
+                         xtrc="topicref:57"
+                         docUri="file:/d:/hyc1487719099348/win64_x64/release/obj/en-US_loioe532cb4c388f407388a7e1493bd4c98b/html500sap/en-US/release/temp/5015634f5a6a493d8310620026acffed.ditamap"
+                         type="concept"
+                         topicID="loioa57fddb7602b4270a87dc7ff5dd7ae9c">
+                  <title>October 2016 Travel Standard Edition Admin Summary</title>
+               </topicref>
+            </topichead>
+         </topichead>
+      </topicref>
+   </enum:enumerables>
+   <glossdata:glossary-entries xmlns:glossdata="http://dita4publishers.org/glossdata"/>
+</mapdriven:collected-data>
