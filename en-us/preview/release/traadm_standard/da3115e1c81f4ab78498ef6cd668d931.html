@@ -1,0 +1,825 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us" dir="ltr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>March 2017 Expense Standard Edition Admin Summary</title>
+      <link rel="icon" href="themes/sap-default/img/favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="themes/sap-default/img/favicon.ico">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"937223162b9b4d22a302ff92a4c8f0e6.html","previousTopicHref":"9915c245e7d34dbcbfaae426fc811d38.html"}</script>
+      <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/sap-default/css/style.css">
+      <script type="text/javascript">
+      
+        d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
+        var ADAPT_CONFIG = {
+          // Where is your CSS?
+          path: d4p.relativePath + d4p.cssGridPath,
+
+          // false = Only run once, when page first loads.
+          // true = Change on window resize and page tilt.
+          dynamic: true,
+
+          // Optional callback... myCallback(i, width)
+          callback: doc_resize,
+
+          // First range entry is the minimum.
+          // Last range entry is the maximum.
+          // Separate ranges by "to" keyword.
+          range: [
+             // small (size-0)
+            '0px    to 760px  =',
+             // medium (size-1, size-2)
+            '760px  to 980px  = ',
+            '980px  to 1270px = ',
+             // large (size-3, size-5)
+            '1270px to 1600px = ',
+            '1600px to 1940px = ',
+             // extra large (size-6)
+            '1940px to 2540px = ',
+            '2540px           = '
+          ]
+        };
+
+        function doc_resize(i, width)
+        {
+          d4p.setBodyClassfunction(i, width);
+        }
+
+
+        
+      </script>
+      <script type="text/javascript" src="themes/sap-default/js/script.js"></script>
+      
+      		<!--[if lt IE 9]>
+      			<script>
+      			  var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+      			    "figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+      			    "progress,section,time,video").split(',');
+      			  for (var i = 0; i < e.length; i++) {
+      			    document.createElement(e[i]);
+      			  }
+      			</script>
+      		<![endif]-->
+      
+      <script>
+      function addLoadEvent(func) {
+      var oldonload = window.onload;
+      if (typeof window.onload != 'function') {
+      window.onload = func;
+      } else {
+      window.onload = function() {
+      if (oldonload) {
+      oldonload();
+      }
+      func();
+      }
+      }
+      }
+      
+      addLoadEvent(function() { 
+      if ($('#local-navigation').length) {
+      $('#local-navigation').navigation();
+      }
+      
+      
+      });
+      
+      </script>
+      <script id="search-processing" type="text/javascript" src="js/search-processing.js"> </script>
+      </head>
+   <body class="en-us sap-default centered navigation-default">
+      <div id="d4h5-main-container" class="container_12" role="application">
+         <ul id="page-links" class="hidden">
+            <li><a id="skip-to-content" href="#d4h5-main-content"></a></li>
+            <li><a id="skip-to-localnav" href="#local-navigation"></a></li>
+            <li><a id="skip-to-footer" href="#footer"></a></li>
+         </ul>
+         <header role="banner" aria-labelledby="publication-title">
+            
+            <img src="themes/sap-default/img/concur.png" class="logo hide-for-small"><h1 id="publication-title" class="hide-for-small">Concur Travel Administration Help</h1>
+            <section class="search-box">
+               <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><label for="txtSearchTerms" class="screen-reader">Search</label><input type="search" id="txtSearchTerms" name="q"></form><span class="search-button sap-icon" onclick="redirect(frmSearch);return false"></span></section>
+            
+         </header>
+         
+         <div id="d4h5-section-container" class="grid_12">
+            <nav class="mobile-nav">
+               <ul>
+                  <li class="toggle-topbar menu-icon no-child "><span class="sap-icon"><a href="#local-navigation"></a></span></li>
+               </ul>
+               <section class="nav-pub-title">Concur Travel Administration Help</section>
+            </nav>
+            <nav id="local-navigation" role="navigation" aria-label="Main navigation" class="grid_4 alpha omega">
+               <div id="nav-content">
+                  <ul>
+                     <li class="toc_link no-child "><a href="index.html"></a></li>
+                     <li class=" no-child "><a href="bb4e99add95a497ab6fe4451cca1b39f.html">Using Online Help</a></li>
+                     <li class=" no-child "><a href="c4419e6551c31015894592a35ea9c949.html">Legal Notice</a></li>
+                     <li class=" no-child "><a href="d7dbc97d37ce4abdb09298aee7e7213c.html">Resources for Administrators - Standard Edition</a></li>
+                     <li class=" no-child "><a href="c47a122f51c310158bd58cd19814638c.html">Travel Admin Guides</a></li>
+                     <li class=" no-child "><a href="d5a91f3324544affb49010fd89b899a0.html">What's New - Standard Edition</a></li>
+                     <li class=" collapsible  active"><a href="4b44a99635954d8dbeb86030e0b88f07.html">Release Note Admin Summaries (Translated, HTML Format) - Standard Edition</a><ul>
+                           <li class="topichead  collapsible  active"><span>Expense</span><ul>
+                                 <li class=" no-child "><a href="4bb3149c07044eb28ec2e332953dd8b3.html">January 2017 Expense Standard Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="9915c245e7d34dbcbfaae426fc811d38.html">February 2017 Expense Standard Edition Admin Summary</a></li>
+                                 <li class=" no-child  active"><a class="selected" href="da3115e1c81f4ab78498ef6cd668d931.html">March 2017 Expense Standard Edition Admin Summary</a></li>
+                                 <li class="topichead  collapsible "><span>2016</span><ul>
+                                       <li class=" no-child "><a href="937223162b9b4d22a302ff92a4c8f0e6.html">December 2016 Expense Standard Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="3dd49fdaea7249f39cdba9dc749476cb.html">November 2016 Expense Standard Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="04d7161316004d3382f7697a69ae3a86.html">October 2016 Expense Standard Edition Admin Summary</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Invoice</span><ul>
+                                 <li class=" no-child "><a href="da8a95749f1443208a2745a97208932e.html">January 2017 Invoice Standard Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="58118f816a324c1e81485ebf940bd0fa.html">February 2017 Invoice Standard Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="514d5c4545c64ca1b9115cef7f7cbfa4.html">March 2017 Invoice Standard Edition Admin Summary</a></li>
+                                 <li class="topichead  collapsible "><span>2016</span><ul>
+                                       <li class=" no-child "><a href="135f6da7ba224092abb3096e1794c7c1.html">December 2016 Invoice Standard Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="ae0312d37b484697b3a86dff0bde3d1d.html">November 2016 Invoice Standard Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="daed5269e04e4a8d83021e98e40e08c3.html">October 2016 Invoice Standard Edition Admin Summary</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Mobile</span><ul>
+                                 <li class=" no-child "><a href="6705c9049cac4a59adb88228a5480c67.html">January 2017 Mobile Admin Summary</a></li>
+                                 <li class=" no-child "><a href="1a5bfd2be1684c3eaac7a3a3b794790c.html">February 2017 Mobile Standard Admin Summary</a></li>
+                                 <li class="topichead  collapsible "><span>2016</span><ul>
+                                       <li class=" no-child "><a href="71ab4576d70745e3a922ad2e85d329e8.html">December 2016 Mobile Admin Summary</a></li>
+                                       <li class=" no-child "><a href="9dc056c0193a4942ae938badea31c967.html">November 2016 Mobile Admin Summary</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Request</span><ul>
+                                 <li class=" no-child "><a href="4b0628b08df44b23bbc9a6935d1810cd.html">January 2017 Request Standard Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="243428ba6f6d4523b1c6f2b753f18682.html">February 2017 Request Standard Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="b63f422026774d649a6d0daee0ef7ef6.html">March 2017 Request Standard Edition Admin Summary</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Travel</span><ul>
+                                 <li class=" no-child "><a href="99e99525b4594e1c858f2b10141dbab0.html">January 2017 Travel Standard Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="c30787de8a694d99a2397dcd2b015329.html">February 2017 Travel Standard Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="564819394f864d62adac2b5ba08f6c0d.html">March 2017 Travel Standard Edition Admin Summary</a></li>
+                                 <li class="topichead  collapsible "><span>2016</span><ul>
+                                       <li class=" no-child "><a href="49268d67dd9e48beaeed415cdcaa760d.html">December 2016 Travel Standard Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="81f3668ec6e2469b9c445f7b522a8ccf.html">November 2016 Travel Standard Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="a57fddb7602b4270a87dc7ff5dd7ae9c.html">October 2016 Travel Standard Edition Admin Summary</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="topichead  collapsible "><span>Profile</span><ul>
+                           <li class=" no-child "><a href="c42a4ed451c3101590b4a568177e0433.html">Change your password</a></li>
+                           <li class=" no-child "><a href="c4392ea451c3101580fe88965dd76be8.html">Set your password security questions</a></li>
+                           <li class=" no-child "><a href="c432887651c31015b22fee2352e3037e.html">Accessibility settings and other preferences</a></li>
+                           <li class=" no-child "><a href="c42aa55851c310159ce5b022daabd21a.html">Connected Apps</a></li>
+                           <li class=" no-child "><a href="b1b89f1ec46d4298ba95f521768168d6.html">User Interface Icons</a></li>
+                           <li class="topichead  collapsible "><span>Expense Settings</span><ul>
+                                 <li class=" no-child "><a href="45b1ea8ad2ae4e4285b82a4308ec2474.html">Feature Access and Permissions</a></li>
+                                 <li class=" no-child "><a href="c42ffe4751c31015aca6cfba025a420a.html">Profile and Preferences - Overview</a></li>
+                                 <li class=" no-child "><a href="c42a221451c31015b57ce81a5c55396c.html">Bank Information</a></li>
+                                 <li class=" no-child "><a href="c42a7b1051c31015a042b653082b363e.html">Company Car Registration</a></li>
+                                 <li class=" no-child "><a href="c4307cb951c310159ede8cebb35c511f.html">Personal Car Registration</a></li>
+                                 <li class=" no-child "><a href="c42b276f51c31015acce80ce14d10b96.html">Enable E-Receipts</a></li>
+                                 <li class=" no-child "><a href="c42b519e51c31015aab7d277e667f860.html">Expense Approvers</a></li>
+                                 <li class=" no-child "><a href="c42cd06d51c31015928d9ed51a0c4d15.html">Expense Preferences</a></li>
+                                 <li class=" no-child "><a href="c430a78251c310159d20a8bfcc2d57fe.html">Register a Personal Credit Card</a></li>
+                                 <li class="topichead  collapsible "><span>Expense Delegates</span><ul>
+                                       <li class=" no-child "><a href="c42b7c7e51c31015b3b1d90fd98ea953.html">Access Expense Delegate</a></li>
+                                       <li class=" no-child "><a href="c42bd39451c310158693881d2a67fd62.html">Add Expense Delegate</a></li>
+                                       <li class=" no-child "><a href="c42c7c8d51c31015917ccd4a943c8814.html">Edit Expense Delegates</a></li>
+                                       <li class=" no-child "><a href="c42c27a251c310158552ffbddb8d077b.html">Delete Expense Delegate</a></li>
+                                       <li class=" no-child "><a href="c42c525051c31015b809d2c9cdfef810.html">Delete Expense Delegate Assignment</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="topichead  collapsible "><span>Favorite Attendees</span><ul>
+                                       <li class=" no-child "><a href="c42dd2a251c31015b1f9f0fe1eb73268.html">Favorite Attendees - Overview</a></li>
+                                       <li class=" no-child "><a href="c42e271551c310158b90ffcaafdc6b7c.html">Add a Favorite Attendee</a></li>
+                                       <li class=" no-child "><a href="c42e517651c31015ade8d4d33585f78a.html">Add a Favorite Attendee Using Search</a></li>
+                                       <li class=" no-child "><a href="c42e7c0651c3101585d4fc23078b4451.html">Delete a Favorite Attendee</a></li>
+                                       <li class=" no-child "><a href="c42ea73051c31015a226bee1623f54ec.html">Edit or View Favorite Attendee Information</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Invoice Settings</span><ul>
+                                 <li class=" no-child "><a href="f4422437b73e47e59e043af2ba15a3a8.html">Feature Access and Permissions</a></li>
+                                 <li class=" no-child "><a href="c42fd46c51c310158ff29e12ff439eff.html">Profile and preferences - overview</a></li>
+                                 <li class=" no-child "><a href="c42ed1c051c31015be2192a881df90c3.html">Invoice approvers</a></li>
+                                 <li class=" no-child "><a href="c42f2b9451c31015808bbe0ac1e996ed.html">Invoice preferences</a></li>
+                                 <li class=" no-child "><a href="c42efea351c31015bfd1c88fb55c73f9.html">Invoice delegates</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Request Settings</span><ul>
+                                 <li class=" no-child "><a href="a615eef062ae446db4cbaebc2c594fb8.html">Feature Access and Permissions</a></li>
+                                 <li class=" no-child "><a href="c43159bd51c3101581db9e4b14e42575.html">Travel Request approvers</a></li>
+                                 <li class=" no-child "><a href="c4325c4651c31015866afd1d43c68c88.html">Travel Request preferences</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Travel Settings</span><ul>
+                                 <li class=" no-child "><a href="8445fb277e374e50b53ec5cfd7d56674.html">Feature Access and Permissions</a></li>
+                                 <li class=" no-child "><a href="c430283551c310159691e06067c02cba.html">Profile - overview</a></li>
+                                 <li class=" no-child "><a href="c429f36251c310159365bfdc8d7e9a05.html">Assign an assistant or arranger</a></li>
+                                 <li class=" no-child "><a href="c42acff551c31015b84ba822d1ab47e8.html">Manage your credit card information</a></li>
+                                 <li class=" no-child "><a href="263efe4830394343a14f6154c6d5d16c.html">Enable E-Receipts</a></li>
+                                 <li class=" no-child "><a href="c430d3b151c310158ca5aff326c5bcc6.html">Change your personal preferences</a></li>
+                                 <li class=" no-child "><a href="c433075c51c31015bef5f732b417fe4e.html">Change your travel preferences (air, hotel, car rental, rail preferences)</a></li>
+                                 <li class=" no-child "><a href="c432dd7b51c31015ada8c605f3fd4be2.html">Change your regional preferences</a></li>
+                                 <li class=" no-child "><a href="c432b2ac51c31015b8f2967f7c07e572.html">Choose your approval emails</a></li>
+                                 <li class=" no-child "><a href="c431037851c31015a0a886318f54c9e0.html">Personal Information</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+            <nav id="breadcrumb-container" class="breadcrumb-container"><span id="breadcrumbs"><a class="sap-icon bcNavLink" href="index.html"></a>&gt;<a class="bcNavLink" href="4b44a99635954d8dbeb86030e0b88f07.html" title="">Release Note Admin Summaries (Translated, HTML Format) - Standard Edition</a>&gt;<span class="bcNavText">Expense</span>&gt;<span class="bcNavText">March 2017 Expense Standard Edition Admin Summary</span></span><span class="next-previous"><a href="9915c245e7d34dbcbfaae426fc811d38.html" class="previous sap-icon" rel="internal" title="February 2017 Expense Standard Edition Admin Summary"></a><a href="937223162b9b4d22a302ff92a4c8f0e6.html" class="next sap-icon" rel="internal" title="December 2016 Expense Standard Edition Admin Summary"></a></span></nav>
+            <div id="d4h5-main-content" class="grid_8 alpha omega">
+               <section>
+                  <div id="content-toolbar" class="toolbar hide-for-small"></div>
+                  <div class="page concept  - topic-topic concept-concept " id="loioda3115e1c81f4ab78498ef6cd668d931">
+                     
+                     <h1 class="title topictitle1"> March 2017 Expense Standard Edition Admin Summary</h1>
+                     
+                     <div class="body conbody">
+                        		
+                        <div class="section" id="loioda3115e1c81f4ab78498ef6cd668d931__section_lf3_545_gz">
+                           <section class="section" type="Expense Pay">
+                              <h2 class="section_title">Expense Pay</h2><span class="ph emphasis emphasis-bold-italics emphasis">Send Payment Processing
+                                 				Partner Files via Concur</span><p class="p">Expense Pay admins who are setting up their
+                                 				funding account with Beanstream, the Expense Pay – Global payment partner, can now
+                                 				upload documents that Beanstream requires using a new section of the existing
+                                 				funding account setup page.
+                              </p>
+                              
+                              <p class="p">Business Purpose / Client Benefit: The
+                                 				functionality removes the requirement to send the documents to Beanstream via email.
+                                 				The client will still email Beanstream so that the client can receive the update
+                                 				that the application is completed and if using Great British Pound (GBP) or Euro
+                                 				(EUR) currency accounts, receive the mandate identification.
+                              </p>
+                              <span class="ph emphasis emphasis-bold-italics emphasis">Can Now
+                                 				Inactivate an Account in Employee Banking</span><p class="p">Expense Pay admins can now
+                                 				mark an employee's bank account as <span class="keyword uinolabel uinolabel-italicsblack">Active</span> or
+                                 					<span class="keyword uinolabel uinolabel-italicsblack">Inactive</span> from the <span class="ph uicontrol uicontrol-boldblack">Payment Manager &gt; Monitor
+                                    					Payee &gt; Employee Banking</span> page.
+                              </p>
+                              
+                              <p class="p">While a bank account is
+                                 					<span class="keyword uinolabel uinolabel-italicsblack">Inactive</span>, the employee cannot submit new expense reports.
+                                 				Employees, who have entered updated banking information in
+                                 					<span class="ph uicontrol uicontrol-boldblack">Profile</span>, can set their account back to
+                                 					<span class="keyword apiname">Active</span> by selecting <span class="keyword uinolabel uinolabel-italicsblack">Yes</span> in the
+                                 					<span class="ph uicontrol uicontrol-boldblack">Active</span> field on the <span class="ph uicontrol uicontrol-boldblack">Profile &gt; Bank
+                                    					Information</span> page. If the employee's bank account is marked
+                                 					<span class="keyword uinolabel uinolabel-italicsblack">Inactive</span> by accident, the Expense Pay admin can revert
+                                 				the account to <span class="keyword uinolabel uinolabel-italicsblack">Active</span> on the<span class="ph uicontrol uicontrol-boldblack"> Employee
+                                    					Banking</span> page, but if the inactivation was done intentionally to
+                                 				ensure that the employee updates their banking profile, the admin should not
+                                 				activate the bank account directly as that is the responsibility of the
+                                 				employee.
+                              </p>
+                              
+                              <aside class="note note  insertion"><span class="title">Note</span> Expense Pay admins will not be able to process cash payment
+                                 				demands for employees who have Inactive bank accounts. There is no change to current
+                                 				functionality if the account is set to <span class="keyword uinolabel uinolabel-italicsblack">Inactive</span> while a
+                                 				payment is already in process.
+                              </aside>
+                              
+                              <p class="p">Business Purpose / Client Benefit: This
+                                 				change enhances the Expense Pay admins ability to manage payments to employees who
+                                 				move between countries.
+                              </p>
+                              <span class="ph emphasis emphasis-bold-italics emphasis">Export Batch Payment Details to
+                                 				Excel</span><p class="p">The <span class="ph uicontrol uicontrol-boldblack">Send to Excel</span> link available in other
+                                 				areas of Concur is now also available for Payment Demand Details.
+                              </p>
+                              
+                              <p class="p">Business
+                                 				Purpose / Client Benefit: This functionality adds flexibility for clients and
+                                 				maintains product consistency within Concur.
+                              </p>
+                              
+                           </section>
+                        </div>
+                        
+                        		
+                        <div class="section" id="loioda3115e1c81f4ab78498ef6cd668d931__section_pdb_q4n_gz">
+                           <section class="section" type="Setup">
+                              <h2 class="section_title">Setup</h2><span class="ph emphasis emphasis-bold-italics emphasis">Menu Changes for Accessing
+                                 				the Setup Wizard</span><p class="p">Concur has removed the <span class="ph uicontrol uicontrol-boldblack">Setup</span>
+                                 				menu option and changed the name of the Expense menu option to <span class="ph uicontrol uicontrol-boldblack">Expense
+                                    					Settings</span> to access the Setup Wizard. To access the Setup Wizard,
+                                 				admins need to click <span class="ph uicontrol uicontrol-boldblack">Administration &gt; Expense
+                                    				Settings</span>.
+                              </p>
+                              
+                              <p class="p">Business Purpose / Client Benefit: This enhancement
+                                 				gives clients a more precise name for what can be found in this menu
+                                 			option.
+                              </p>
+                              
+                           </section>
+                        </div>
+                        
+                        		
+                        <div class="section" id="loioda3115e1c81f4ab78498ef6cd668d931__section_zxh_cq5_gz">
+                           <section class="section" type="QuickBooks">
+                              <h2 class="section_title">QuickBooks</h2><span class="ph emphasis emphasis-bold-italics emphasis">Default Values for
+                                 				QuickBooks Account Name or Number Column</span><p class="p">For QuickBooks Desktop (QBD)
+                                 				and QuickBooks Online (QBO) clients that are not using the QuickBooks Web Connector,
+                                 				the default value for the <span class="ph uicontrol uicontrol-boldblack">QuickBooks Account Name or Number</span>
+                                 				column is now blank for expense types on the <span class="ph uicontrol uicontrol-boldblack">Expense – Account
+                                    					Codes</span> page in Setup.
+                              </p>
+                              
+                              <p class="p">Business Purpose / Client Benefit:
+                                 				Entering values in this column is simplified.
+                              </p>
+                              
+                           </section>
+                        </div>
+                        
+                        		
+                        <div class="section" id="loioda3115e1c81f4ab78498ef6cd668d931__section_hnb_jq5_gz">
+                           <section class="section" type="Japan Public Transportation (JPT)">
+                              <h2 class="section_title">Japan Public Transportation (JPT)</h2><span class="ph emphasis emphasis-bold-italics emphasis">JPT Network IC Card Reader Support Using Concur’s E-Receipt
+                                 				Service</span><p class="p">For Japan Public Transportation (JPT) users, Concur now
+                                 				supports a network IC (Integrated Circuit) Card reader. Using a network IC Card
+                                 				reader along with Concur’s E-Receipt service, this feature allows users to import IC
+                                 				Card routes into Concur. The routes display in <span class="ph uicontrol uicontrol-boldblack">Available
+                                    					Expenses</span>.
+                              </p>
+                              
+                              <p class="p">Business Purpose / Client Benefit: Offers an easy,
+                                 				quick and most error-free way to add routes to an expense report by importing them
+                                 				into Expense from the Employee IC Card.
+                              </p>
+                              
+                           </section>
+                        </div>
+                        
+                        		
+                        <div class="section" id="loioda3115e1c81f4ab78498ef6cd668d931__section_sd3_cgg_gz">
+                           <section class="section" type="Concur User Interface">
+                              <h2 class="section_title">Concur User Interface</h2><span class="ph emphasis emphasis-bold-italics emphasis">Terminology
+                                 				Change – Korean</span><p class="p">Concur has changed the following Korean
+                                 				term.
+                              </p>
+                              
+                              <div class="table-wrapper">
+                                 <table summary="" id="loioda3115e1c81f4ab78498ef6cd668d931__simpletable_asq_1hg_gz" border="1" class="simpletable">
+                                    <tr class="sthead">
+                                       					
+                                       <th valign="bottom" align="left" id="d6215e139" class="stentry" width="33.333333333333336%">
+                                          						
+                                          <p class="p">English Term</p>
+                                          
+                                          					
+                                       </th>
+                                       
+                                       					
+                                       <th valign="bottom" align="left" id="d6215e145" class="stentry" width="33.333333333333336%">
+                                          						
+                                          <p class="p">Previous Korean Term</p>
+                                          
+                                          					
+                                       </th>
+                                       
+                                       					
+                                       <th valign="bottom" align="left" id="d6215e151" class="stentry" width="33.333333333333336%">
+                                          						
+                                          <p class="p">Updated Korean Term</p>
+                                          
+                                          					
+                                       </th>
+                                       
+                                       				
+                                    </tr>
+                                    
+                                    <tr class="strow">
+                                       					
+                                       <td valign="top" headers="d6215e139" class="stentry">
+                                          						
+                                          <p class="p">cost object</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       					
+                                       <td valign="top" headers="d6215e145" class="stentry">
+                                          						
+                                          <p class="p">원가 직접 대상</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       					
+                                       <td valign="top" headers="d6215e151" class="stentry">
+                                          						
+                                          <p class="p">비용 오브젝트</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       				
+                                    </tr>
+                                    
+                                 </table>
+                              </div>
+                              
+                              <aside class="note note  insertion"><span class="title">Note</span> Please make a note of this change as it may influence your company’s
+                                 				internal documentation or training materials.
+                              </aside>
+                              
+                              <p class="p">Business Purpose / Client
+                                 				Benefit: This change improves accuracy and consistency of the Korean version of the
+                                 				Concur user interface.
+                              </p>
+                              
+                           </section>
+                        </div>
+                        
+                        		
+                        <div class="section" id="loioda3115e1c81f4ab78498ef6cd668d931__section_urq_44n_gz">
+                           <section class="section" type="Help">
+                              <h2 class="section_title">Help</h2><span class="ph emphasis emphasis-bold-italics emphasis">New Look for the How It Works
+                                 				Topics</span><p class="p">The How It Works Help topics in Setup have a new format. The How
+                                 				It Works Help topics open when the company administrator clicks the <span class="ph uicontrol uicontrol-boldblack">How
+                                    					it works</span> link on one of the Setup pages. The topic provides
+                                 				information relevant to the Setup page you are working on.
+                              </p>
+                              
+                              <p class="p">Business Purpose /
+                                 				Client Benefit: This change improves the readability of the Help content.
+                                 			
+                              </p>
+                              
+                           </section>
+                        </div>
+                        
+                        		
+                        <div class="section" id="loioda3115e1c81f4ab78498ef6cd668d931__section_d5s_vq5_gz">
+                           <section class="section" type="TLS">
+                              <h2 class="section_title">TLS</h2><span class="ph emphasis emphasis-bold-italics emphasis">Support for TLS v 1.0
+                                 				Encryption Protocol to End March of 2017</span><p class="p">Concur announces an End of
+                                 				Support cycle for version 1.0 of the TLS encryption protocol, continuing support for
+                                 				the more secure 1.1 and 1.2 versions of TLS. As background, the TLS protocol allows
+                                 				secure back and forth communications between a phone or computer and a cloud-based
+                                 				service. 
+                              </p>
+                              
+                              <p class="p">Note that, since less than 1% of Concur users are logging in to
+                                 				Concur Solutions using browsers or phones limited to version 1.0, a very small
+                                 				number of users are affected by this support discontinuation.
+                              </p>
+                              
+                              <p class="p">Please note the
+                                 				new end of support date is March. We have moved the date support will end from
+                                 				January 31st to March 31st of 2017 in order to give our clients ample time to
+                                 				understand and make the required manual changes to their browser's security
+                                 				settings. These changes will be detailed in an upcoming service
+                                 				release.
+                              </p>
+                              
+                              <p class="p">Business Purpose / Client Benefit: Concur is taking this step after
+                                 				careful consideration of both the client’s security and ease of upgrade to the
+                                 				newer, more secure 1.1 and 1.2 versions of TLS. This end of life plan for TLS v 1.0
+                                 				ensures our clients are communicating with Concur services in a safe and secure
+                                 				manner using TLS v. 1.1 and newer.
+                              </p>
+                              
+                           </section>
+                        </div>
+                        
+                        		
+                        <div class="section" id="loioda3115e1c81f4ab78498ef6cd668d931__section_fw5_zq5_gz">
+                           <section class="section" type="**Reminder**">
+                              <h2 class="section_title">**Reminder**</h2><span class="ph emphasis emphasis-bold-italics emphasis">Change in the Monthly
+                                 				Release Schedule</span><p class="p">As shown on the 2017 release calendar, starting in
+                                 				March, Request releases will occur on Saturday instead of Friday. For most users,
+                                 				there is no change; they see the release-related changes on Monday – like they
+                                 				always have. Be aware that, starting in March, any weekend users will likely not see
+                                 				the release-related changes until Sunday.
+                              </p>
+                              
+                              <p class="p">Release Calendar: The release
+                                 				calendar is available here: 
+                              </p>
+                              
+                              <p class="p"><a class="extlink" href="http://www.concurtraining.com/customers/tech_pubs/ReleaseCalendar/_ReleaseCalendar_client.htm" target="_blank" alt="http://www.concurtraining.com/customers/tech_pubs/ReleaseCalendar/_ReleaseCalendar_client.htm" title="http://www.concurtraining.com/customers/tech_pubs/ReleaseCalendar/_ReleaseCalendar_client.htm">http://www.concurtraining.com/customers/tech_pubs/ReleaseCalendar/_ReleaseCalendar_client.htm</a></p>
+                              
+                           </section>
+                        </div>
+                        
+                        		
+                        <div class="section" id="loioda3115e1c81f4ab78498ef6cd668d931__section_als_qq5_gz">
+                           <section class="section" type="Coming Soon">
+                              <h2 class="section_title">Coming Soon</h2><span class="ph emphasis emphasis-bold-italics emphasis">Setup: Enhanced Fiscal
+                                 				Calendar for Analysis / Intelligence</span><p class="p">Concur will soon provide an
+                                 				enhanced fiscal calendar for Analysis / Intelligence. A fiscal calendar allows
+                                 				organizations to define their accounting periods independent of the standard
+                                 				calendar year. Many organizations define their own calendars to model their
+                                 				financial reporting to reflect seasons in their business, to compare results with
+                                 				direct competitors, and to avoid the busy year-end season in January.
+                              </p>
+                              
+                              <p class="p">The new
+                                 				fiscal calendar will be available under Reporting Configuration, which is accessed
+                                 				via <span class="ph uicontrol uicontrol-boldblack">Administration &gt; Expense Settings or Administration &gt; Invoice
+                                    					Settings</span>.
+                              </p>
+                              
+                              <p class="p">For more information, refer to the release notes for
+                                 				Analysis / Intelligence.
+                              </p>
+                              <span class="ph emphasis emphasis-bold-italics emphasis">Terminology Changes – Italian</span><p class="p">In
+                                 				April, Concur will change the following Italian terms. 
+                              </p>
+                              
+                              <div class="table-wrapper">
+                                 <table summary="" id="loioda3115e1c81f4ab78498ef6cd668d931__simpletable_yfy_5r5_gz" border="1" class="simpletable">
+                                    <tr class="sthead">
+                                       					
+                                       <th valign="bottom" align="left" id="d6215e248" class="stentry" width="33.333333333333336%">
+                                          						
+                                          <p class="p">English Term</p>
+                                          
+                                          					
+                                       </th>
+                                       
+                                       					
+                                       <th valign="bottom" align="left" id="d6215e254" class="stentry" width="33.333333333333336%">
+                                          						
+                                          <p class="p">Previous Italian Term</p>
+                                          
+                                          					
+                                       </th>
+                                       
+                                       					
+                                       <th valign="bottom" align="left" id="d6215e260" class="stentry" width="33.333333333333336%">
+                                          						
+                                          <p class="p">Updated Italian Term</p>
+                                          
+                                          					
+                                       </th>
+                                       
+                                       				
+                                    </tr>
+                                    
+                                    <tr class="strow">
+                                       					
+                                       <td valign="top" headers="d6215e248" class="stentry">
+                                          						
+                                          <p class="p">segment</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       					
+                                       <td valign="top" headers="d6215e254" class="stentry">
+                                          						
+                                          <p class="p">segmento</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       					
+                                       <td valign="top" headers="d6215e260" class="stentry">
+                                          						
+                                          <p class="p">tratta</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       				
+                                    </tr>
+                                    
+                                    <tr class="strow">
+                                       					
+                                       <td valign="top" headers="d6215e248" class="stentry">
+                                          						
+                                          <p class="p">workflow</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       					
+                                       <td valign="top" headers="d6215e254" class="stentry">
+                                          						
+                                          <p class="p"> regola del flusso di lavoro</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       					
+                                       <td valign="top" headers="d6215e260" class="stentry">
+                                          						
+                                          <p class="p">workflow</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       				
+                                    </tr>
+                                    
+                                 </table>
+                              </div>
+                              
+                              <aside class="note note  insertion"><span class="title">Note</span> Please make a note of this change as it may influence your company’s
+                                 				internal documentation or training materials.
+                              </aside>
+                              
+                              <p class="p">Business Purpose / Client
+                                 				Benefit: This change improves accuracy and consistency of the Italian version of the
+                                 				Concur user interface.
+                              </p>
+                              <span class="ph emphasis emphasis-bold-italics emphasis">Terminology Changes – Spanish</span><p class="p">In
+                                 				April, Concur will update the following Latin American Spanish terms.
+                                 				
+                              </p>
+                              
+                              <div class="table-wrapper">
+                                 <table summary="" id="loioda3115e1c81f4ab78498ef6cd668d931__simpletable_hjf_shg_gz" border="1" class="simpletable">
+                                    <tr class="sthead">
+                                       					
+                                       <th valign="bottom" align="left" id="d6215e322" class="stentry" width="33.333333333333336%">
+                                          						
+                                          <p class="p">English Term</p>
+                                          
+                                          					
+                                       </th>
+                                       
+                                       					
+                                       <th valign="bottom" align="left" id="d6215e328" class="stentry" width="33.333333333333336%">
+                                          						
+                                          <p class="p">Previous Spanish Term</p>
+                                          
+                                          					
+                                       </th>
+                                       
+                                       					
+                                       <th valign="bottom" align="left" id="d6215e334" class="stentry" width="33.333333333333336%">
+                                          						
+                                          <p class="p">Updated Spanish Term</p>
+                                          
+                                          					
+                                       </th>
+                                       
+                                       				
+                                    </tr>
+                                    
+                                    <tr class="strow">
+                                       					
+                                       <td valign="top" headers="d6215e322" class="stentry">
+                                          						
+                                          <p class="p">allocation</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       					
+                                       <td valign="top" headers="d6215e328" class="stentry">
+                                          						
+                                          <p class="p">distribución</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       					
+                                       <td valign="top" headers="d6215e334" class="stentry">
+                                          						
+                                          <p class="p">asignación</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       				
+                                    </tr>
+                                    
+                                    <tr class="strow">
+                                       					
+                                       <td valign="top" headers="d6215e322" class="stentry">
+                                          						
+                                          <p class="p">allocate</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       					
+                                       <td valign="top" headers="d6215e328" class="stentry">
+                                          						
+                                          <p class="p">distribuir</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       					
+                                       <td valign="top" headers="d6215e334" class="stentry">
+                                          						
+                                          <p class="p">asignar</p>
+                                          
+                                          					
+                                       </td>
+                                       
+                                       				
+                                    </tr>
+                                    
+                                 </table>
+                              </div>
+                              
+                              <aside class="note note  insertion"><span class="title">Note</span> Please make a note of this change as it may influence your company’s
+                                 				internal documentation or training materials.
+                              </aside>
+                              
+                              <p class="p">Business Purpose / Client
+                                 				Benefit: This change improves accuracy and consistency of the Latin America -
+                                 				Spanish version of the Concur user interface.
+                              </p>
+                              <span class="ph emphasis emphasis-bold-italics emphasis">Check for Missing Account
+                                 				Code Later in Workflow</span><p class="p">Employees will be able to save, submit, and
+                                 				approve an expense report even if one or more account codes are missing for expenses
+                                 				in the report. 
+                              </p>
+                              
+                              <p class="p">Currently, whenever an expense is saved, the system validates
+                                 				that an account code has been provided for the related expense type and adds that
+                                 				account code to the expense (a process not visible through the UI). If there is no
+                                 				account code associated with the expense, the expense cannot be saved. 
+                              </p>
+                              
+                              <p class="p">With
+                                 				this update, the system will validate and add the account code to the expense after
+                                 				the final approval step. 
+                              </p>
+                              
+                              <p class="p">After the final approval step, the report goes to
+                                 				the pre-payment processing step. If an account code does not exist for one of the
+                                 				expense types used in the report, the system will block the expense data from being
+                                 				extracted or posted to your financial system until your Concur company administrator
+                                 				provides an account code mapping for the expense type in Setup. 
+                              </p>
+                              
+                              <p class="p">A new query,
+                                 				Financial Posting Failed, in the Processor view makes it easy to find any expense
+                                 				reports that cannot be extracted or posted to your financial system. Such reports
+                                 				will be flagged with an exception. 
+                              </p>
+                              
+                              <p class="p">Business Purpose / Client Benefit:
+                                 				Employees are no longer prevented from completing their expense reports when an
+                                 				account code is missing in the expense type configuration. Account codes are now
+                                 				populated at a single, consistent point in the workflow.
+                              </p>
+                              <span class="ph emphasis emphasis-bold-italics emphasis">Microsoft IE
+                                 				v.10 Browser Support Ends August 18, 2017</span>
+                              			
+                              <p class="p">Support for Microsoft Internet Explorer (IE) version 10 browsers under Concur
+                                 				products will end August 18, 2017. Concur strongly advises clients using IE v.10 to
+                                 				update to the latest IE browser version before that date, or to install and work
+                                 				with another supported browser.
+                              </p>
+                              
+                              <aside class="note remember  insertion"><span class="title">Remember</span> In addition, this change is
+                                 				a result of deprecating TLS 1.0. Upgrading to Internet Explorer 11 will enable
+                                 				companies to use a supported Microsoft browser that – by default – supports TLS
+                                 				1.2.
+                              </aside>
+                              
+                           </section>
+                        </div>
+                        
+                        	
+                     </div>
+                     
+                  </div>
+                  
+               </section>
+               <div class="clear"></div>
+               
+            </div>
+            <div class="clearfix"></div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <div id="footer-container" class="grid_12">
+         <footer>
+            	
+            <div id="custom-footerSpacer"></div>
+            	
+            
+         </footer>
+         
+         
+      </div>
+   </body>
+</html>

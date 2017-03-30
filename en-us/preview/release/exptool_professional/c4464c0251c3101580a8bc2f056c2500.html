@@ -1,0 +1,453 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us" dir="ltr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Search and assign lodge transactions</title>
+      <link rel="icon" href="themes/sap-default/img/favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="themes/sap-default/img/favicon.ico">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript">var d4p = {"relativePath":'',"dev":false,"debug":false,"draft":false,"nextTopicHref":"c446ce3e51c310158017fcf9cd2a6878.html","previousTopicHref":"c44675c851c310158cdd84580f45601b.html"}</script>
+      <link rel="stylesheet" type="text/css" media="screen, projection" href="themes/sap-default/css/style.css">
+      <script type="text/javascript">
+      
+        d4p.cssGridPath = d4p.dev ? 'html5-themes/modules/960-Responsive-Grid/css/' : 'themes/dita-d4p-classic/css/';
+        var ADAPT_CONFIG = {
+          // Where is your CSS?
+          path: d4p.relativePath + d4p.cssGridPath,
+
+          // false = Only run once, when page first loads.
+          // true = Change on window resize and page tilt.
+          dynamic: true,
+
+          // Optional callback... myCallback(i, width)
+          callback: doc_resize,
+
+          // First range entry is the minimum.
+          // Last range entry is the maximum.
+          // Separate ranges by "to" keyword.
+          range: [
+             // small (size-0)
+            '0px    to 760px  =',
+             // medium (size-1, size-2)
+            '760px  to 980px  = ',
+            '980px  to 1270px = ',
+             // large (size-3, size-5)
+            '1270px to 1600px = ',
+            '1600px to 1940px = ',
+             // extra large (size-6)
+            '1940px to 2540px = ',
+            '2540px           = '
+          ]
+        };
+
+        function doc_resize(i, width)
+        {
+          d4p.setBodyClassfunction(i, width);
+        }
+
+
+        
+      </script>
+      <script type="text/javascript" src="themes/sap-default/js/script.js"></script>
+      
+      		<!--[if lt IE 9]>
+      			<script>
+      			  var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+      			    "figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+      			    "progress,section,time,video").split(',');
+      			  for (var i = 0; i < e.length; i++) {
+      			    document.createElement(e[i]);
+      			  }
+      			</script>
+      		<![endif]-->
+      
+      <script>
+      function addLoadEvent(func) {
+      var oldonload = window.onload;
+      if (typeof window.onload != 'function') {
+      window.onload = func;
+      } else {
+      window.onload = function() {
+      if (oldonload) {
+      oldonload();
+      }
+      func();
+      }
+      }
+      }
+      
+      addLoadEvent(function() { 
+      if ($('#local-navigation').length) {
+      $('#local-navigation').navigation();
+      }
+      
+      
+      });
+      
+      </script>
+      <script id="search-processing" type="text/javascript" src="js/search-processing.js"> </script>
+      </head>
+   <body class="en-us sap-default centered navigation-default">
+      <div id="d4h5-main-container" class="container_12" role="application">
+         <ul id="page-links" class="hidden">
+            <li><a id="skip-to-content" href="#d4h5-main-content"></a></li>
+            <li><a id="skip-to-localnav" href="#local-navigation"></a></li>
+            <li><a id="skip-to-footer" href="#footer"></a></li>
+         </ul>
+         <header role="banner" aria-labelledby="publication-title">
+            
+            <img src="themes/sap-default/img/concur.png" class="logo hide-for-small"><h1 id="publication-title" class="hide-for-small">Concur Expense Tools Help</h1>
+            <section class="search-box">
+               <form onsubmit="redirect(frmSearch);return false" name="frmSearch" class="searchForm" role="search"><label for="txtSearchTerms" class="screen-reader">Search</label><input type="search" id="txtSearchTerms" name="q"></form><span class="search-button sap-icon" onclick="redirect(frmSearch);return false"></span></section>
+            
+         </header>
+         
+         <div id="d4h5-section-container" class="grid_12">
+            <nav class="mobile-nav">
+               <ul>
+                  <li class="toggle-topbar menu-icon no-child "><span class="sap-icon"><a href="#local-navigation"></a></span></li>
+               </ul>
+               <section class="nav-pub-title">Concur Expense Tools Help</section>
+            </nav>
+            <nav id="local-navigation" role="navigation" aria-label="Main navigation" class="grid_4 alpha omega">
+               <div id="nav-content">
+                  <ul>
+                     <li class="toc_link no-child "><a href="index.html"></a></li>
+                     <li class=" no-child "><a href="bb4e99add95a497ab6fe4451cca1b39f.html">Using Online Help</a></li>
+                     <li class=" no-child "><a href="c4419e6551c31015894592a35ea9c949.html">Legal Notice</a></li>
+                     <li class=" no-child "><a href="5b234dccab2f4c0e839f27d088c4720c.html">Resources for Administrators - Professional Edition</a></li>
+                     <li class="topichead  collapsible "><span>Payment Manager</span><ul>
+                           <li class=" no-child "><a href="c44b28f751c3101581a7b5c3177417a0.html">Payment Manager - Overview</a></li>
+                           <li class="topichead  collapsible "><span>Monitor Batches</span><ul>
+                                 <li class=" no-child "><a href="c44ad36851c31015969691f3f5309a79.html">Monitor Batches</a></li>
+                                 <li class=" no-child "><a href="c44a21b251c31015ad2ed107cbef45dc.html">Viewing Funding Details</a></li>
+                                 <li class=" no-child "><a href="c44a4e9d51c31015930eca345c06c7eb.html">Viewing Pre Fund Funding Details</a></li>
+                                 <li class=" no-child "><a href="c4499d0a51c31015b15ce4152221ec60.html">Monitor Employee Banking</a></li>
+                                 <li class=" no-child "><a href="c44a7d8b51c3101582b981af8229afc5.html">Review Historic Batches</a></li>
+                                 <li class=" no-child "><a href="c44aa94251c310158788a02c64a56173.html">Reschedule Batches</a></li>
+                                 <li class=" no-child "><a href="c44afe7251c31015862afa81b1306c18.html">Viewing Payment Demand Details</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Monitor Payees</span><ul>
+                                 <li class=" no-child "><a href="c44b52c451c310158f37d7c7eac879d6.html">View Report Payees</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Configure Batches</span><ul>
+                                 <li class=" no-child "><a href="c449184151c3101592b3c4c991c385f5.html">Add a New Batch Definition</a></li>
+                                 <li class=" no-child "><a href="c449451451c31015a5e6f79acaf7aaa2.html">Modify a Batch Definition</a></li>
+                                 <li class=" no-child "><a href="c449717451c310159c17ed9585256d3f.html">Remove a Batch Definition</a></li>
+                                 <li class=" no-child "><a href="c449cc0b51c31015b4759a75585794b3.html">Add a New Funding Account</a></li>
+                                 <li class=" no-child "><a href="c449f71151c31015a31fdaa70ba66693.html">Modify a Funding Account</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="topichead  collapsible  active"><span>Company Card Admin</span><ul>
+                           <li class=" no-child "><a href="c441de9151c310158f60fe6c3672a83d.html">Feature Access and Permissions</a></li>
+                           <li class=" no-child "><a href="c44621de51c31015a61deb90674b55e6.html">Company Card Admin - Overview</a></li>
+                           <li class=" collapsible  collapsed"><a href="c445ce5f51c31015bda3b90ccf760f6b.html">Manage accounts - Overview</a><ul>
+                                 <li class=" no-child "><a href="c445f82251c31015b250d4c0fd4b7a85.html">Search for accounts in Manage Accounts</a></li>
+                                 <li class=" no-child "><a href="c44524fb51c310159870ebbba6cde141.html">Create an Individual Card Account in Manage Accounts</a></li>
+                                 <li class=" no-child "><a href="c4454f5a51c310159fdcac6b5fb19a21.html">Create a Lodge or Diversion card account in Manage Accounts</a></li>
+                                 <li class=" no-child "><a href="c445a3c151c3101586efc925d23f6fa3.html">Modify a card account in Manage Accounts</a></li>
+                                 <li class=" no-child "><a href="c444faa651c31015b7fad05d79af4c4a.html">Assign and unassign a card account in Manage Accounts</a></li>
+                                 <li class=" no-child "><a href="c445797551c310158c5fd5a08880c29a.html">Delete a card account in Manage Accounts</a></li>
+                              </ul>
+                           </li>
+                           <li class=" collapsible  collapsed"><a href="c4477a2751c31015a527e7f70f49823f.html">Manage transactions - Overview</a><ul>
+                                 <li class=" no-child "><a href="c447ce1251c3101593c9c48c8415acc5.html">Search for and view company card transactions</a></li>
+                                 <li class=" no-child "><a href="c447a46251c31015a35daef15e0850d0.html">Release transactions to the employee</a></li>
+                                 <li class=" no-child "><a href="c447506d51c31015a2b5ff4e334683b9.html">Hide transactions from the employee</a></li>
+                              </ul>
+                           </li>
+                           <li class=" collapsible  active"><a href="c446a08b51c310159bafdd85b6dbbd5c.html">Lodge Accounts - Overview</a><ul>
+                                 <li class=" no-child "><a href="c446fbc651c310159eb7afa2962359c5.html">View lodge accounts</a></li>
+                                 <li class=" no-child "><a href="c44675c851c310158cdd84580f45601b.html">Manage lodge accounts</a></li>
+                                 <li class=" no-child  active"><a class="selected" href="c4464c0251c3101580a8bc2f056c2500.html">Search and assign lodge transactions</a></li>
+                                 <li class=" no-child "><a href="c446ce3e51c310158017fcf9cd2a6878.html">Troubleshoot lodge accounts</a></li>
+                              </ul>
+                           </li>
+                           <li class=" collapsible  collapsed"><a href="c4484c5f51c31015944d841343b25214.html">Merchant Code Mapping - Overview</a><ul>
+                                 <li class=" no-child "><a href="c448a07151c31015965edb9ea4432291.html">View merchant code mapping</a></li>
+                                 <li class=" no-child "><a href="c448218051c3101594acef9292a5f56a.html">Edit merchant code mapping</a></li>
+                                 <li class=" no-child "><a href="c44876c951c31015bfbd91cce6e7eb76.html">Remove merchant code mapping</a></li>
+                                 <li class=" no-child "><a href="c447f7b951c310158e49b582ae3f5939.html">Assign merchant code mapping</a></li>
+                              </ul>
+                           </li>
+                           <li class=" no-child "><a href="c44726ae51c31015a3fbd91da5c90050.html">View Import Logs</a></li>
+                           <li class=" no-child "><a href="c448cad051c31015bfdcd8e8336d27c9.html">Settings</a></li>
+                        </ul>
+                     </li>
+                     <li class="topichead  collapsible "><span>Cash Advance Admin</span><ul>
+                           <li class=" no-child "><a href="5f5286a726644433a9ca2b604a29df36.html">Feature Access and Permissions</a></li>
+                           <li class=" no-child "><a href="c44480a351c31015b01cd38152fecbd6.html">Cash Advance - Overview</a></li>
+                           <li class=" no-child "><a href="c4442b0451c31015a164a4bf5665a818.html">Access Cash Advance Admin</a></li>
+                           <li class=" no-child "><a href="c44455e851c31015a6e79c115066c65f.html">Issue or Decline (not Issue) a Cash Advance</a></li>
+                           <li class=" no-child "><a href="c444aaba51c310159573de04a150cfa0.html">View an Employee's Balance and the Cash Advance Details</a></li>
+                        </ul>
+                     </li>
+                     <li class="topichead  collapsible "><span>Attendee Admin</span><ul>
+                           <li class=" no-child "><a href="6c89429d69a649de9d96076b337bb1ee.html">Feature Access and Permissions</a></li>
+                           <li class=" no-child "><a href="c44382ca51c310158ef4de4fff94a01c.html">Attendee Admin - Overview</a></li>
+                           <li class=" no-child "><a href="c442eafa51c31015a95dd24a3bfba112.html">Accessing the Attendee Admin Page</a></li>
+                           <li class=" no-child "><a href="c443afca51c3101592fafd5492cdcb8f.html">Searching for Attendees</a></li>
+                           <li class=" no-child "><a href="c443d9b451c310158c8abca138dc13e8.html">Viewing Attendees</a></li>
+                           <li class=" no-child "><a href="c4432c8851c31015aedfb5d8e27954d9.html">Activating or Inactivating Attendees</a></li>
+                           <li class=" no-child "><a href="c44357e451c31015abadd8d4a1c9048b.html">Modifying Attendees</a></li>
+                        </ul>
+                     </li>
+                     <li class=" no-child "><a href="aad56ca6256748e49448746badb549fa.html">What's New - Professional Edition</a></li>
+                     <li class=" collapsible  collapsed"><a href="7885ede95c714a5887debc7b237cbdad.html">Release Note Admin Summaries (Translated, HTML Format) - Professional Edition</a><ul>
+                           <li class="topichead  collapsible "><span>Expense</span><ul>
+                                 <li class=" no-child "><a href="e3d7be93c20b4169861ed2e7e080296d.html">January 2017 Expense Professional Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="8201a261487d4ecd82bc1b5d446c71cc.html">February 2017 Expense Professional Admin Summary</a></li>
+                                 <li class=" no-child "><a href="eccde21bc32a4fa2a09fd778b4ce5f8f.html">March 2017 Expense Professional Admin Summary</a></li>
+                                 <li class="topichead  collapsible "><span>2016</span><ul>
+                                       <li class=" no-child "><a href="b589e44740b64482b3eba18da47ca834.html">December 2016 Expense Professional Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="c3b866f77ea948a2ba7b881b125ab101.html">November 2016 Expense Professional Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="1643b6f0e9f04d69a28d247e61e4ecdb.html">October 2016 Expense Professional Edition Admin Summary</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Invoice</span><ul>
+                                 <li class=" no-child "><a href="e4ad92e86e6c4803a68f7d7a479fca8a.html">January 2017 Invoice Professional Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="e4ff6ad8243c4261aaf113e404289c68.html">February 2017 Invoice Professional Admin Summary</a></li>
+                                 <li class=" no-child "><a href="c0eb27fcd26e468f8d27477d2ddb8267.html">March 2017 Invoice Professional Admin Summary</a></li>
+                                 <li class="topichead  collapsible "><span>2016</span><ul>
+                                       <li class=" no-child "><a href="e5694ee84d2b4ae88fa8dc884d7f865b.html">December 2016 Invoice Professional Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="d3d1bffd78c84b5b861ca6a16274b98d.html">November 2016 Invoice Professional Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="b3fbc950e0c74c34b8a595e8b6581903.html">October 2016 Invoice Professional Edition Admin Summary</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Mobile</span><ul>
+                                 <li class=" no-child "><a href="f8bf5e1292224679ac0c55d0c3fdb3b1.html">January 2017 Mobile Admin Summary</a></li>
+                                 <li class=" no-child "><a href="3ef0ae11281d4e85bc8d19447f47750e.html">February 2017 Mobile Professional Admin Summary</a></li>
+                                 <li class="topichead  collapsible "><span>2016</span><ul>
+                                       <li class=" no-child "><a href="71ab4576d70745e3a922ad2e85d329e8.html">December 2016 Mobile Admin Summary</a></li>
+                                       <li class=" no-child "><a href="9dc056c0193a4942ae938badea31c967.html">November 2016 Mobile Admin Summary</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Request</span><ul>
+                                 <li class=" no-child "><a href="97b34b2b1f0c4a1babf5ee3763e3caba.html">January 2017 Request Professional Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="0af6c69b8baf439ea9b99f352db183ac.html">February 2017 Request Professional Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="968b7b55471f4b64bf8c9c311d9c1e13.html">March 2017 Request Professional Edition Admin Summary</a></li>
+                                 <li class="topichead  collapsible "><span>2016</span><ul>
+                                       <li class=" no-child "><a href="5b04403818d148cdadf84b1131806d42.html">December 2016 Request Professional Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="0997786fd03f47c59ba895e39cc67a56.html">November 2016 Request Professional Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="4ac37624562547c48fae7fe2326bfec9.html">October 2016 Request Professional Edition Admin Summary</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Travel</span><ul>
+                                 <li class=" no-child "><a href="b5be246bf1204b9d825001f11a871212.html">January 2017 Travel Professional Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="5ef5a2f95a9f4fe3a30bbc20b445d17d.html">February 2017 Travel Professional Edition Admin Summary</a></li>
+                                 <li class=" no-child "><a href="639aceb5435443ac937be1a593f43d96.html">March 2017 Travel Professional Edition Admin Summary</a></li>
+                                 <li class="topichead  collapsible "><span>2016</span><ul>
+                                       <li class=" no-child "><a href="5a0757d789b64becbf4db3bf24581694.html">December 2016 Travel Professional Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="df2dc87743db462a9965d32ae0745806.html">November 2016 Travel Professional Edition Admin Summary</a></li>
+                                       <li class=" no-child "><a href="bb7a3a0883474e43a1eed9f4b284bb6b.html">October 2016 Travel Professional Edition Admin Summary</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="topichead  collapsible "><span>Profile</span><ul>
+                           <li class=" no-child "><a href="c42a4ed451c3101590b4a568177e0433.html">Change your password</a></li>
+                           <li class=" no-child "><a href="c4392ea451c3101580fe88965dd76be8.html">Set your password security questions</a></li>
+                           <li class=" no-child "><a href="c432887651c31015b22fee2352e3037e.html">Accessibility settings and other preferences</a></li>
+                           <li class=" no-child "><a href="c42aa55851c310159ce5b022daabd21a.html">Connected Apps</a></li>
+                           <li class=" no-child "><a href="b1b89f1ec46d4298ba95f521768168d6.html">User Interface Icons</a></li>
+                           <li class="topichead  collapsible "><span>Expense Settings</span><ul>
+                                 <li class=" no-child "><a href="45b1ea8ad2ae4e4285b82a4308ec2474.html">Feature Access and Permissions</a></li>
+                                 <li class=" no-child "><a href="c42fa9e351c310159846e44fea5411f1.html">Profile and Preferences - Overview</a></li>
+                                 <li class=" no-child "><a href="c42a221451c31015b57ce81a5c55396c.html">Bank Information</a></li>
+                                 <li class=" no-child "><a href="c42a7b1051c31015a042b653082b363e.html">Company Car Registration</a></li>
+                                 <li class=" no-child "><a href="c4307cb951c310159ede8cebb35c511f.html">Personal Car Registration</a></li>
+                                 <li class=" no-child "><a href="c42b276f51c31015acce80ce14d10b96.html">Enable E-Receipts</a></li>
+                                 <li class=" no-child "><a href="c42b519e51c31015aab7d277e667f860.html">Expense Approvers</a></li>
+                                 <li class=" no-child "><a href="c42cd06d51c31015928d9ed51a0c4d15.html">Expense Preferences</a></li>
+                                 <li class=" no-child "><a href="c430a78251c310159d20a8bfcc2d57fe.html">Register a Personal Credit Card</a></li>
+                                 <li class="topichead  collapsible "><span>Expense Delegates</span><ul>
+                                       <li class=" no-child "><a href="c42b7c7e51c31015b3b1d90fd98ea953.html">Access Expense Delegate</a></li>
+                                       <li class=" no-child "><a href="c42ba7f351c310159a18b9e6d3599f3a.html">Add Expense Delegate</a></li>
+                                       <li class=" no-child "><a href="c42c7c8d51c31015917ccd4a943c8814.html">Edit Expense Delegates</a></li>
+                                       <li class=" no-child "><a href="c42c27a251c310158552ffbddb8d077b.html">Delete Expense Delegate</a></li>
+                                       <li class=" no-child "><a href="c42c525051c31015b809d2c9cdfef810.html">Delete Expense Delegate Assignment</a></li>
+                                       <li class=" no-child "><a href="c42bfd9c51c31015b6feaa8f4b896adc.html">Delegate Preview for the Approver</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="topichead  collapsible "><span>Favorite Attendees</span><ul>
+                                       <li class=" no-child "><a href="c42dd2a251c31015b1f9f0fe1eb73268.html">Favorite Attendees - Overview</a></li>
+                                       <li class=" no-child "><a href="c42e271551c310158b90ffcaafdc6b7c.html">Add a Favorite Attendee</a></li>
+                                       <li class=" no-child "><a href="c42e517651c31015ade8d4d33585f78a.html">Add a Favorite Attendee Using Search</a></li>
+                                       <li class=" no-child "><a href="c42e7c0651c3101585d4fc23078b4451.html">Delete a Favorite Attendee</a></li>
+                                       <li class=" no-child "><a href="c42ea73051c31015a226bee1623f54ec.html">Edit or View Favorite Attendee Information</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Invoice Settings</span><ul>
+                                 <li class=" no-child "><a href="f4422437b73e47e59e043af2ba15a3a8.html">Feature Access and Permissions</a></li>
+                                 <li class=" no-child "><a href="c42fd46c51c310158ff29e12ff439eff.html">Profile and preferences - overview</a></li>
+                                 <li class=" no-child "><a href="c42ed1c051c31015be2192a881df90c3.html">Invoice approvers</a></li>
+                                 <li class=" no-child "><a href="c42f2b9451c31015808bbe0ac1e996ed.html">Invoice preferences</a></li>
+                                 <li class=" no-child "><a href="c42efea351c31015bfd1c88fb55c73f9.html">Invoice delegates</a></li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Request Settings</span><ul>
+                                 <li class=" no-child "><a href="a615eef062ae446db4cbaebc2c594fb8.html">Feature Access and Permissions</a></li>
+                                 <li class=" no-child "><a href="c43159bd51c3101581db9e4b14e42575.html">Travel Request approvers</a></li>
+                                 <li class=" no-child "><a href="c4322e8f51c31015a5cc97d75bbeec06.html">Travel Request information</a></li>
+                                 <li class=" no-child "><a href="c4325c4651c31015866afd1d43c68c88.html">Travel Request preferences</a></li>
+                                 <li class="topichead  collapsible "><span>Request Delegates</span><ul>
+                                       <li class=" no-child "><a href="c431843151c310158c14bd2d44613ac0.html">Access Request delegates</a></li>
+                                       <li class=" no-child "><a href="c431afd351c31015afbbf8868c8045e4.html">Add Request delegates</a></li>
+                                       <li class=" no-child "><a href="c431d9de51c31015808385293f6e1246.html">Delete a Request delegate</a></li>
+                                       <li class=" no-child "><a href="c43203ac51c3101592e29c2db8d0f94a.html">Edit a Request delegate</a></li>
+                                       <li class=" no-child "><a href="668d35c7f99242aa8e1b65c44825f2c8.html">Delegate Preview for the Approver</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="topichead  collapsible "><span>Travel Settings</span><ul>
+                                 <li class=" no-child "><a href="8445fb277e374e50b53ec5cfd7d56674.html">Feature Access and Permissions</a></li>
+                                 <li class=" no-child "><a href="c430283551c310159691e06067c02cba.html">Profile - overview</a></li>
+                                 <li class=" no-child "><a href="c429f36251c310159365bfdc8d7e9a05.html">Assign an assistant or arranger</a></li>
+                                 <li class=" no-child "><a href="c42acff551c31015b84ba822d1ab47e8.html">Manage your credit card information</a></li>
+                                 <li class=" no-child "><a href="263efe4830394343a14f6154c6d5d16c.html">Enable E-Receipts</a></li>
+                                 <li class=" no-child "><a href="c430d3b151c310158ca5aff326c5bcc6.html">Change your personal preferences</a></li>
+                                 <li class=" no-child "><a href="c433075c51c31015bef5f732b417fe4e.html">Change your travel preferences (air, hotel, car rental, rail preferences)</a></li>
+                                 <li class=" no-child "><a href="c432dd7b51c31015ada8c605f3fd4be2.html">Change your regional preferences</a></li>
+                                 <li class=" no-child "><a href="c432b2ac51c31015b8f2967f7c07e572.html">Choose your approval emails</a></li>
+                                 <li class=" no-child "><a href="c431037851c31015a0a886318f54c9e0.html">Personal Information</a></li>
+                                 <li class=" no-child "><a href="c43331b751c310159d6df4389c05bc39.html">Temporarily reassign your Travel approvals</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+            <nav id="breadcrumb-container" class="breadcrumb-container"><span id="breadcrumbs"><a class="sap-icon bcNavLink" href="index.html"></a>&gt;<a class="bcNavLink" href="c446a08b51c310159bafdd85b6dbbd5c.html" title="">Lodge Accounts - Overview</a>&gt;<span class="bcNavText">Company Card Admin</span>&gt;<span class="bcNavText">Search and assign lodge transactions</span></span><span class="next-previous"><a href="c44675c851c310158cdd84580f45601b.html" class="previous sap-icon" rel="internal" title="Manage lodge accounts"></a><a href="c446ce3e51c310158017fcf9cd2a6878.html" class="next sap-icon" rel="internal" title="Troubleshoot lodge accounts"></a></span></nav>
+            <div id="d4h5-main-content" class="grid_8 alpha omega">
+               <section>
+                  <div id="content-toolbar" class="toolbar hide-for-small"></div>
+                  <div class="page topic  - topic-topic " id="loioc4464c0251c3101580a8bc2f056c2500">
+                     
+                     <h1 class="title topictitle1">Search and assign lodge transactions</h1>
+                     
+                     <div class="body">
+                        <p class="p"><span class="keyword uinolabel uinolabel-italicsblack">Before you begin - refer to the </span><a class="xref" href="c441de9151c310158f60fe6c3672a83d.html">feature access and permissions</a> <span class="keyword uinolabel uinolabel-italicsblack">information.</span>
+                           
+                        </p>
+                        
+                        <p class="p">Once the lodge transaction is <a class="xref" href="c446fbc651c310159eb7afa2962359c5.html">identified</a> as either orphaned or mis-assigned the transaction can be matched to the correct user. To do this, first select the transaction(s)
+                           to be assigned, then assign the transactions to a user within your Group. 
+                        </p>
+                        
+                        <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Select the transactions</span></p>
+                        
+                        <p class="p">To select the transactions, click one or more transactions directly - each transaction you select is highlighted to indicate
+                           it is ready for assignment.
+                        </p>
+                        
+                        <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Search and assign a transaction to a user </span></p>
+                        
+                        <p class="p">To search and assign the selected transaction(s) to an employee:</p>
+                        
+                        <ol class="ol">
+                           <li class="li">
+                              <p class="p">Click <span class="ph uicontrol uicontrol-boldblack">Assign to Employee</span>.
+                              </p>
+                              
+                           </li>
+                           
+                           <li class="li">
+                              <p class="p">In the <span class="ph uicontrol uicontrol-boldblack">Assign Selected Transactions To An Employee</span> dialog box, type the first three characters of the employee's first or last name in <span class="ph uicontrol uicontrol-boldblack">Search</span>.
+                              </p>
+                              
+                           </li>
+                           
+                           <li class="li">
+                              <p class="p">Click the magnifying glass icon ( <img class="inline  " height="20" src="loioc3fc712651c31015a90bce8e07885723_LowRes.gif" width="18"> ) to begin the search. Click the X ( <img class="inline  " height="20" src="loioc3fc9b9051c31015afb2dc6823e1e5ab_LowRes.gif" width="18"> )
+                                 to clear the text box. 
+                              </p>
+                              
+                           </li>
+                           
+                           <li class="li">
+                              <p class="p">In the search results rows, select an employee (only one may be selected).<span class="ph uicontrol uicontrol-boldblack">TIP:</span> Use the columns to sort the employee search result set in order to find an employee. 
+                              </p>
+                              
+                           </li>
+                           
+                           <li class="li">
+                              <p class="p">Click <span class="ph uicontrol uicontrol-boldblack">Assign</span>.
+                              </p>
+                              
+                           </li>
+                           
+                        </ol>
+                        
+                        <p class="p">The transaction is assigned and you are returned to the <span class="ph uicontrol uicontrol-boldblack">Manage Lodge Transactions</span> page. 
+                        </p>
+                        
+                        <p class="p"><span class="ph emphasis emphasis-bold-italics emphasis">Reassign a transaction</span>
+                           
+                        </p>
+                        
+                        <p class="p">Reassigning an assigned transaction is identical to assigning an unassigned transaction. Select the assigned transaction then
+                           follow the steps under <span class="keyword uinolabel uinolabel-italicsblack">Search and assign the transaction to a user</span> to
+                           reassign the transaction. 
+                        </p>
+                        
+                     </div>
+                     
+                     <div class="related-links"> 
+                        
+                        <div class="relinfo">
+                           <div class="relinfotitle ">Related Information</div>
+                           
+                           <div><a class="link" href="c446a08b51c310159bafdd85b6dbbd5c.html">Lodge transactions - overview </a></div>
+                           
+                           <div><a class="link" href="c44675c851c310158cdd84580f45601b.html">Manage lodge transactions</a></div>
+                           
+                           <div><a class="link" href="c446fbc651c310159eb7afa2962359c5.html">View lodge transactions</a></div>
+                           
+                           <div><a class="link" href="c446ce3e51c310158017fcf9cd2a6878.html">Best practices &amp; troubleshooting</a></div>
+                           
+                        </div>
+                        
+                     </div>
+                  </div>
+                  
+               </section>
+               <div class="clear"></div>
+               
+            </div>
+            <div class="clearfix"></div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <div id="footer-container" class="grid_12">
+         <footer>
+            	
+            <div id="custom-footerSpacer"></div>
+            	
+            
+         </footer>
+         
+         
+      </div>
+   </body>
+</html>
